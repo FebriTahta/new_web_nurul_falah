@@ -7,7 +7,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Clymene</title>
+	<title>Nurul Falah</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -19,7 +19,7 @@
 	
 	<!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="css/base.css"/>
+	<link rel="stylesheet" href="{{asset('css/base.css')}}"/>
 	<link rel="stylesheet" href="css/skeleton.css"/>
 	<link rel="stylesheet" href="css/layout.css"/>
 	<link rel="stylesheet" href="css/settings.css"/>
@@ -57,8 +57,30 @@
 			#islamic-days-desktop {
 				display: none;
 			}
+			#head-event {
+				margin-top: 150px !important;
+			}
+			#spesial-event {
+				margin-top: -100px;
+			}#youtube {
+				margin-top: 50px;
+			}
+			.strip figure {
+				margin-bottom: 5px;
+				overflow: hidden;
+				position: relative;
+				height: 200px !important;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				-ms-border-radius: 5px;
+				border-radius: 5px;
+				background-color: #ededed;
+			}
+			#social {
+				padding-top: 50px;
+			}
 		}
-		@media (max-width:450px) {
+		@media (max-width:449px) {
 			
 			.bnr {
 				margin-top: 50px;
@@ -87,6 +109,15 @@
 			#info-event {
 				display: none;
 			}
+			#bidang {
+				display: none;
+			}
+			.foot {
+				text-align: left !important;
+			}
+			#social {
+				
+			}
 			.strip figure {
 				margin-bottom: 5px;
 				overflow: hidden;
@@ -98,6 +129,10 @@
 				border-radius: 5px;
 				background-color: #ededed;
 			}
+
+			#youtube {
+				margin-top: -50px;
+			}
 		}
 
 		
@@ -105,14 +140,48 @@
 	{{-- assets 3 --}}
 	 <link href="{{asset('assets3/css/style.css')}}" rel="stylesheet">
 	 <link href="{{asset('assets3/css/home.css')}}" rel="stylesheet">
-
 </head>
 <body>	
 	<!-- Primary Page Layout
 	================================================== -->
 
 	<div class="animsition">
+		<header class="header" id="header-media">
+            <nav class="nav container">
+                <!-- <a href="#" class="nav__logo">Marlon</a> -->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link" style="text-align: center">
+								<i class="fa fa-fw">&nbsp;&nbsp; </i>
+                                <span class="nav__name" style="font-size: 12px">Home</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="fa fa-fw">&nbsp;&nbsp; </i>
+                                <span class="nav__name" style="font-size: 12px">Media</span>
+                            </a>
+                        </li>
 
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="fa fa-fw">&nbsp;&nbsp; </i>
+                                <span class="nav__name" style="font-size: 12px">Profile</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="fa fa-fw">&nbsp;&nbsp; </i>
+                                <span class="nav__name" style="font-size: 12px">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 	
     <!-- Switch Panel -->
     <div id="switch">
@@ -138,16 +207,13 @@
     </div>
     <!-- Switch Panel -->	
 
-
-		
-	
 	<!-- MENU
     ================================================== -->	
 	
-	<div class="header-top">
-	
+	<div class="header-top" >
+	{{-- style="background-image: linear-gradient(to right, #75b2e4, #63f3bc);" --}}
 		<header class="cd-main-header">
-			<a class="cd-logo animsition-link" href="index.html"><img src="{{asset('nf_logo.png')}}" alt="Logo"></a>
+			<a class="cd-logo animsition-link" href="/"><img src="{{asset('nf_logo.png')}}" alt="Logo"></a>
 
 			<ul class="cd-header-buttons">
 				<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
@@ -156,9 +222,10 @@
 		</header>
 		
 		<nav class="cd-nav">
-			<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+			<ul id="cd-primary-nav" class="cd-primary-nav is-fixed" style="align-content: center;" sty
+			>
 				<li>
-					<a href="index.html" class="animsition-link">Home</a>
+					<a href="/" class="animsition-link">Home</a>
 				</li>
 				<li class="has-children">
 					<a href="#">Events</a>
@@ -170,7 +237,7 @@
 							<a href="#">Events</a>
 							<ul class="is-hidden">
 								<li class="go-back"><a href="#">Events</a></li>
-								<li><a href="slider-project.html" class="animsition-link">Special Ramadhan</a></li>
+								<li><a href="/" class="animsition-link">Special Ramadhan</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -181,30 +248,30 @@
 
 					<ul class="cd-nav-gallery is-hidden">
 						<li class="go-back"><a href="#">Menu</a></li>
-						<li class="see-all"><a href="shop-all.html" class="animsition-link">Browse All</a></li>
+						<li class="see-all"><a href="/" class="animsition-link">Browse All</a></li>
 						<li>
-							<a class="cd-nav-item animsition-link" href="shop-1.html">
+							<a class="cd-nav-item animsition-link" href="/">
 								<img src="images/shop1.jpg" alt="Product Image">
 								<h3>men</h3>
 							</a>
 						</li>
 
 						<li>
-							<a class="cd-nav-item animsition-link" href="shop-2.html">
+							<a class="cd-nav-item animsition-link" href="/">
 								<img src="images/shop2.jpg" alt="Product Image">
 								<h3>women</h3>
 							</a>
 						</li>
 
 						<li>
-							<a class="cd-nav-item animsition-link" href="shop-3.html">
+							<a class="cd-nav-item animsition-link" href="/">
 								<img src="images/shop3.jpg" alt="Product Image">
 								<h3>underwear</h3>
 							</a>
 						</li>
 
 						<li>
-							<a class="cd-nav-item animsition-link" href="shop-4.html">
+							<a class="cd-nav-item animsition-link" href="/">
 								<img src="images/shop4.jpg" alt="Product Image">
 								<h3>jewellry</h3>
 							</a>
@@ -216,86 +283,86 @@
 					<a href="#">Shortcodes</a>
 					<ul class="cd-nav-icons is-hidden">
 						<li class="go-back"><a href="#">Menu</a></li>
-						<li class="see-all"><a href="more-shortcodes.html" class="animsition-link">More Shortcodes</a></li>
+						<li class="see-all"><a href=/" class="animsition-link">More Shortcodes</a></li>
 						<li>
-							<a class="cd-nav-item item-1 animsition-link" href="buttons.html">
+							<a class="cd-nav-item item-1 animsition-link" href="/">
 								<h3>Buttons</h3>
 								<p>This is the page description</p>
 							</a>
 						</li>
 
 						<li>
-							<a class="cd-nav-item item-2 animsition-link" href="icons.html">
+							<a class="cd-nav-item item-2 animsition-link" href="/">
 								<h3>Icons</h3>
 								<p>This is the page description</p>
 							</a>
 						</li>
 
 						<li>
-							<a class="cd-nav-item item-3 animsition-link" href="counters.html">
+							<a class="cd-nav-item item-3 animsition-link" href="/">
 								<h3>Counters</h3>
 								<p>This is the page description</p>
 							</a>
 						</li>
 
 						<li>
-							<a class="cd-nav-item item-4 animsition-link" href="carousels.html">
+							<a class="cd-nav-item item-4 animsition-link" href="/">
 								<h3>Carousels</h3>
 								<p>This is the page description</p>
 							</a>
 						</li>
 
 						<li>
-							<a class="cd-nav-item item-5 animsition-link" href="media.html">
+							<a class="cd-nav-item item-5 animsition-link" href="/">
 								<h3>Media</h3>
 								<p>This is the page description</p>
 							</a>
 						</li>
 
 						<li>
-							<a class="cd-nav-item item-6 animsition-link" href="blockquotes.html">
+							<a class="cd-nav-item item-6 animsition-link" href="/">
 								<h3>Blockquotes</h3>
 								<p>This is the page description</p>
 							</a>
 						</li>
 
 						<li>
-							<a class="cd-nav-item item-7 animsition-link" href="process.html">
+							<a class="cd-nav-item item-7 animsition-link" href="/">
 								<h3>Process Steps</h3>
 								<p>This is the page description</p>
 							</a>
 						</li>
 
 						<li>
-							<a class="cd-nav-item item-8 animsition-link" href="alert.html">
+							<a class="cd-nav-item item-8 animsition-link" href="/">
 								<h3>Alert Boxes</h3>
 								<p>This is the page description</p>
 							</a>
 						</li>
 						
 						<li>
-							<a class="cd-nav-item item-9 animsition-link" href="tabs.html">
+							<a class="cd-nav-item item-9 animsition-link" href="/">
 								<h3>Tabs</h3>
 								<p>This is the page description</p>
 							</a>
 						</li>
 
 						<li>
-							<a class="cd-nav-item item-10 animsition-link" href="pricing.html">
+							<a class="cd-nav-item item-10 animsition-link" href="/">
 								<h3>Pricing Boxes</h3>
 								<p>This is the page description</p>
 							</a>
 						</li>
 
 						<li>
-							<a class="cd-nav-item item-11 animsition-link" href="clients.html">
+							<a class="cd-nav-item item-11 animsition-link" href="/">
 								<h3>Clients</h3>
 								<p>This is the page description</p>
 							</a>
 						</li>
 						
 						<li>
-							<a class="cd-nav-item item-12 animsition-link" href="lightbox.html">
+							<a class="cd-nav-item item-12 animsition-link" href="/">
 								<h3>Lightbox</h3>
 								<p>This is the page description</p>
 							</a>
@@ -304,11 +371,11 @@
 				</li>
 
 				<li>
-					<a href="contact.html" class="animsition-link">Contact</a>
+					<a href="/" class="animsition-link">Contact</a>
 				</li>
 				
 				<li>
-					<a href="cart.html" class="animsition-link"><i class="fa fa-fw">&#xf07a;</i>cart</a>
+					<a href="/" class="animsition-link"><i class="fa fa-fw">&#xf07a;</i>cart</a>
 				</li>
 				
 			</ul> <!-- primary-nav -->
@@ -326,9 +393,7 @@
 	
 	<!-- HOME SECTION
     ================================================== -->
-	
 		<section class="home">
-	
 			<div class="slider-container">
 				<div class="tp-banner-container">
 					<div class="tp-banner" >
@@ -395,58 +460,133 @@
 			</div>
 		</section>		
 
-		<section class="home section white-section section-padding-bottom section-home-padding-top">
+		{{-- <section class="home section white-section section-padding-bottom section-home-padding-top">
+			
+		</section> --}}
+		{{-- <section id="bidang" class="section bg_gray" style="margin-top: 70px; padding: 0;">
 			<div class="container">
-				<div class="sixteen columns">
-					<div class="section-title" style="text-align: center">
-						<h1>special ramadhan</h1>
-						<a href="#" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px">
-							<i class="fa fa-fw"></i> <span class="muter" style="margin-right: 10px">informasi selengkapnya</span> <i class="fa fa-fw"></i>
+				<div class="sixteen columns" style="margin-bottom: 30px; margin-top: 30px">
+					<ul id="owl-logos" class="owl-carousel owl-theme">
+						<li><img style="width: 100px; height: auto" src="{{asset('LPQ.png')}}" alt="" /></li>
+						<li><img style="width: 100px; height: auto" src="{{asset('TLWTI.png')}}" alt="" /></li>
+						<li><img style="width: 100px; height: auto" src="{{asset('DGTKI.png')}}" alt="" /></li>
+						<li><img style="width: 100px; height: auto" src="{{asset('LAZIS.png')}}" alt="" /></li>
+						<li><img style="width: 100px; height: auto" src="{{asset('LPQ.png')}}" alt="" /></li>
+					</ul>
+				</div>
+			</div>
+		</section> --}}
+		<div class="bg_gray" style="padding-bottom: 20px">
+			<div class="container" id="social" style="margin-top: 70px">
+				<div class="owl-carousel owl-theme categories_carousel">
+					<div class="item_version_2">
+						<a href="https://www.youtube.com/channel/UC1Xkdp_DKN0hJL85UWxH_Gg" target="_blank">
+							<figure>
+								<span>1</span>
+								<img src="img_socmed/youtube.jpg" data-src="img_socmed/youtube.jpg" alt="" class="owl-lazy" width="350" height="450">
+							</figure>
+						</a>
+					</div>
+					<div class="item_version_2">
+						<a href="https://tabungamal.id"  target="_blank">
+							<figure>
+								<span>2</span>
+								<img src="img_socmed/tabung.jpg" data-src="img_socmed/tabung.jpg" alt="" class="owl-lazy" width="350" height="450">
+							</figure>
+						</a>
+					</div>
+					<div class="item_version_2">
+						<a href="https://www.facebook.com/nurul.falahku" target="_blank">
+							<figure>
+								<span>3</span>
+								<img src="img_socmed/fb2.jpg" data-src="img_socmed/fb2.jpg" alt="" class="owl-lazy" width="350" height="450">
+							</figure>
+						</a>
+					</div>
+					<div class="item_version_2">
+						<a href="https://www.instagram.com/pesantren_nurul_falah/?hl=id" target="_blank">
+							<figure>
+								<span>4</span>
+								<img src="img_socmed/ig.jpg" data-src="img_socmed/ig.jpg" alt="" class="owl-lazy" width="350" height="450">
+							</figure>
+						</a>
+					</div>
+					<div class="item_version_2">
+						<a href="https://www.tiktok.com/@tilawati_pusat" target="_blank">
+							<figure>
+								<span>5</span>
+								<img src="img_socmed/tiktok.jpg" data-src="img_socmed/tiktok.jpg" alt="" class="owl-lazy" width="350" height="450">
+							</figure>
+						</a>
+					</div>
+					
+					<div class="item_version_2">
+						<a href="https://www.facebook.com/lazisnf" target="_blank">
+							<figure>
+								<span>6</span>
+								<img src="img_socmed/fb.jpg" data-src="img_socmed/fb.jpg" alt="" class="owl-lazy" width="350" height="450">
+							</figure>
+						</a>
+					</div>
+					
+					
+					
+				</div>
+				<!-- /carousel -->
+			</div>
+		</div>
+		
+
+		<div class="container" id="spesial-event" style="padding: 0;">
+			<div class="sixteen columns events" id="head-event">
+				<div class="section-title" style="text-align: center">
+					<h4>spesial ramadhan</h4>
+					<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px">
+						<i class="fa fa-fw"></i> <span class="muter" style="margin-right: 10px">informasi selengkapnya</span> <i class="fa fa-fw"></i>
+					</a>
+				</div>
+			</div>
+			<div class="eleven columns">
+				<div id="owl-portfolio-slider" class="owl-carousel owl-theme">
+					<div class="item" style="display: block">
+						<img src="images/portfolio/big/2.jpg" alt="" style="margin-bottom: 10px">
+						{{-- <a href="#" class="button-shortcodes text-size-1 text-padding-5 version-1"><span></span> Nurul Falah</a> --}}
+						<a href="#" class="one-third ">
+							<i class="fa fa-fw"></i>
+							<span class="muted">Nama Agenda Kegiatan</span>
+						</a>
+					</div>
+					<div class="item">
+						<img src="images/portfolio/big/3.jpg" alt="" style="margin-bottom: 10px">
+						<a href="#" class="one-third ">
+							<i class="fa fa-fw"></i>
+							<span class="muted">Nama Agenda Kegiatan</span>
+						</a>
+					</div>
+					<div class="item">
+						<img src="images/portfolio/big/4.jpg" alt="" style="margin-bottom: 10px">
+						<a href="#" class="one-third ">
+							<i class="fa fa-fw"></i>
+							<span class="muted">Nama Agenda Kegiatan</span>
 						</a>
 					</div>
 				</div>
-				<div class="eleven columns">
-					<div id="owl-portfolio-slider" class="owl-carousel owl-theme">
-						<div class="item" style="display: block">
-							<img src="images/portfolio/big/2.jpg" alt="" style="margin-bottom: 10px">
-							{{-- <a href="#" class="button-shortcodes text-size-1 text-padding-5 version-1"><span></span> Nurul Falah</a> --}}
-							<a href="#" class="one-third ">
-								<i class="fa fa-fw"></i>
-								<span class="muted">Agenda Kegiatan Nurul Falah</span>
-							</a>
-						</div>
-						<div class="item">
-							<img src="images/portfolio/big/3.jpg" alt="" style="margin-bottom: 10px">
-							<a href="#" class="one-third ">
-								<i class="fa fa-fw"></i>
-								<span class="muted">Agenda Events Bidang Tertentu</span>
-							</a>
-						</div>
-						<div class="item">
-							<img src="images/portfolio/big/4.jpg" alt="" style="margin-bottom: 10px">
-							<a href="#" class="one-third ">
-								<i class="fa fa-fw"></i>
-								<span class="muted">Agenda Events Bidang Tertentu</span>
-							</a>
-						</div>
+			</div>
+			<div class="five columns">
+				<div class="ajax-project-content">
+					<p class="desc-event">Berikut adalah events / acara special yang kami selenggarakan dalam kurun waktu tertentu.</p>
+					<div class="ajax-project-info owner-event">
+						<div class="ajax-info"><span>&#xf0c0;</span><strong>Owner:</strong> NURUL FALAH</div>
+						<div class="ajax-info"><span>&#xf017;</span><strong>Waktu :</strong> BULAN RAMADHAN</div>
+						<div class="ajax-info"><span>&#xf168;</span><strong>Tema &nbsp;&nbsp;&nbsp;:</strong> SPECIAL RAMADHAN</div>
 					</div>
-				</div>
-				<div class="five columns">
-					<div class="ajax-project-content">
-						<p class="desc-event">Berikut adalah events / acara special yang kami selenggarakan dalam kurun waktu tertentu.</p>
-						<div class="ajax-project-info owner-event">
-							<div class="ajax-info"><span>&#xf0c0;</span><strong>Owner:</strong> NURUL FALAH</div>
-							<div class="ajax-info"><span>&#xf017;</span><strong>Waktu :</strong> BULAN RAMADHAN</div>
-							<div class="ajax-info"><span>&#xf168;</span><strong>Tema &nbsp;&nbsp;&nbsp;:</strong> SPECIAL RAMADHAN</div>
-						</div>
-						<a href="#" id="info-event"><div class="ajax-link">informasi selengkapnya</div></a>
-					</div>
+					<a href="#" id="info-event"><div class="ajax-link">informasi selengkapnya</div></a>
 				</div>
 			</div>
-		</section>
+		</div>
 		
 		<div class="bg_gray">
-			<div class="container">
+			<div class="container" id="youtube">
 				<br>
 				<div class="main_title">
 					<i class="fa fa-fw" style="font-size: 40px; color: red"> YouTube</i>
@@ -465,7 +605,54 @@
 							</ul>
 						</div>
 					</div>
-					
+					<div class="item">
+						<div class="strip">
+							<figure>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/T7pnFWi3W7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
+							</figure>
+							<ul>
+								<li><span class="take yes">Tarhib Ramadhan</span> </li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<div class="strip">
+							<figure>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/qn5BmYqQEYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
+							</figure>
+							<ul>
+								<li><span class="take yes">Tarhib Ramadhan</span> </li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<div class="strip">
+							<figure>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/PTEeJ9G0vW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
+							</figure>
+							<ul>
+								<li><span class="take yes">Tarhib Ramadhan</span> </li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<div class="strip">
+							<figure>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/2UJk7MSWGBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
+							</figure>
+							<ul>
+								<li><span class="take yes">Tarhib Ramadhan</span> </li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
 				</div>
 				<!-- /carousel -->
 				<br>
@@ -486,15 +673,9 @@
 					<div class="blog-big-wrapper deskripsi">
 						<img src="images/blog/9.jpg" alt="">
 						<div class="bottom-text" style="font-size: 14px">17th Oct 2014</div>
-						<a href="image-post.html" class="animsition-link"><h5>THIS IS A STANDARD POST WITH A PREVIEW IMAGE</h5></a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing
-							asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus. asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>
-							 <br>
-							 <p>
-								asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus. asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.
-								elit....
-							 </p>
-						<a href="image-post.html" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
+						<a href="/" class="animsition-link"><h5>THIS IS A STANDARD POST WITH A PREVIEW IMAGE</h5></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus...</p>
+							<a href="/" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
 					</div>
 					{{-- <a href="" style="width: 100%; text-align: center; margin-top: 170px" class="button-shortcodes text-size-1 text-padding-1 version-1">baca berita lainnya <span class="right-icon"></span></a> --}}
 				</div>
@@ -503,9 +684,9 @@
 						<div class="blog-big-wrapper deskripsi">
 							<img src="images/blog/9.jpg" alt="">
 							<div class="bottom-text" style="font-size: 14px">17th Oct 2014</div>
-							<a href="image-post.html" class="animsition-link"><h5>THIS IS A STANDARD POST</h5></a>
+							<a href="/" class="animsition-link"><h5>THIS IS A STANDARD POST</h5></a>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
-							<a href="image-post.html" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
+							<a href="/" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
 							
 						</div>
 					</div>
@@ -515,9 +696,9 @@
 						<div class="blog-big-wrapper">
 							<img src="images/blog/9.jpg" alt="">
 							<div class="bottom-text" style="font-size: 14px">17th Oct 2014</div>
-							<a href="image-post.html" class="animsition-link"><h5>THIS IS A STANDARD POST</h5></a>
+							<a href="/" class="animsition-link"><h5>THIS IS A STANDARD POST</h5></a>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
-							<a href="image-post.html" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
+							<a href="/" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
 						</div>
 					</div>
 					{{-- <a href="" style="width: 100%; text-align: center; margin-top: 50px" class="button-shortcodes text-size-1 text-padding-1 version-1">baca berita lainnya <span class="right-icon"></span></a> --}}
@@ -533,23 +714,22 @@
 
 	<!-- SECTION
     ================================================== -->	
-	
-		{{-- <section class="section white-section  section-padding-top-bottom">
+
+		<section class="section white-section" style="padding-top: 50px">
 			<div class="container">
-				
-			</div>
-		</section>		 --}}
-		<section class="section white-section section-padding-top-bottom">
-		
-			<div class="container">
+				<div class="sixteen columns" style="margin-top: 20px">
+					<div class="section-title">
+						<h1>Artikel</h1>
+					</div>
+				</div>
 				<div class="sixteen columns">
 					<div id="portfolio-filter">
 						<ul id="filter">
-							<li><a href="#" class="current" data-filter="*" title="">Show All</a></li>
+							{{-- <li><a href="#" class="current" data-filter="*" title="">Show All</a></li>
 							<li><a href="#" data-filter=".photo" title="">Photo</a></li>
 							<li><a href="#" data-filter=".media" title="">Media</a></li>
 							<li><a href="#" data-filter=".news" title="">News</a></li>
-							<li><a href="#" data-filter=".links" title="">Links</a></li>
+							<li><a href="#" data-filter=".links" title="">Links</a></li> --}}
 						</ul>
 					</div>
 				</div>
@@ -561,9 +741,6 @@
 				<div class="twelve columns remove-top">
 					<div class="blog-wrapper">
 						<div id="blog-grid-masonry" class="isotope" style="position: relative; overflow: hidden; height: 3373px;">
-							<div class="container">
-								
-							</div>
 							<a href="#" class="animsition-link">
 								<div class="blog-box-3 half-blog-width photo">
 									<div class="blog-box-1 grey-section">
@@ -617,7 +794,7 @@
 				<div class="four columns">
 					<div class="post-sidebar">
 						<h6 style="text-align: center">JADWAL SHOLAT</h6>
-						<iframe id="iframe" title="prayerWidget" class="widget-m-top" style=" height: 358px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/1625822/shafi/11/0/20.0/18.0"> </iframe>
+						<iframe id="iframe" title="prayerWidget" class="widget-m-top" style=" height: 362px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/1625822/shafi/11/0/20.0/18.0"> </iframe>
 						<div class="separator-sidebar"></div>
 						<h6 style="text-align: center">HARI SPESIAL ISLAM</h6>
 						<ul id="islamic-days-desktop">
@@ -631,8 +808,8 @@
 				</div>
 			</div>
 			<div class="call-to-action-1" style="background-color: #6cb6a3;">
-				<h5>ARTIKEL SELENGKAPNYA</h5>
-				<a href="#" class="button-1 animsition-link" style="border-color: white">BACA</a>
+				<h5>BACA ARTIKEL SELENGKAPNYA DIBAWAH INI</h5>
+				<a href="#" class="button-1 animsition-link" style="border-color: white">BACA SELENGKAPNYA</a>
 			</div>
 		</section>
 		
@@ -640,55 +817,143 @@
 	<!-- SECTION
     ================================================== -->	
 	
-		<section class="section section-padding-top-bottom text-white">
+	<section class="section bg_gray" style="padding-bottom: 20px">
+		
+		<div class="container">
+			<div class="sixteen columns">
+				<div class="section-title">
+					<h3>trending topic artikel</h3>
+					<div class="subtitle">berikut adalah artikel yang paling sering dibaca</div>
+				</div>
+			</div>
+		</div>
+		<ul id="owl-carousel-5" class="owl-carousel owl-theme">
+					
+			<li>
+				<a href="/" class="animsition-link">
+					<div class="portfolio-box-2 white-section">
+						<img src="{{asset('images/blog/1.jpg')}}" alt="">
+						<h6>holy sadie</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</a>
+			</li>
+					
+			<li>
+				<a href="/" class="animsition-link">
+					<div class="portfolio-box-2 white-section">
+						<img src="{{asset('images/blog/1.jpg')}}" alt="">
+						<h6>holy sadie</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="/" class="animsition-link">
+					<div class="portfolio-box-2 white-section">
+						<img src="{{asset('images/blog/1.jpg')}}" alt="">
+						<h6>holy sadie</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="/" class="animsition-link">
+					<div class="portfolio-box-2 white-section">
+						<img src="{{asset('images/blog/1.jpg')}}" alt="">
+						<h6>holy sadie</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="/" class="animsition-link">
+					<div class="portfolio-box-2 white-section">
+						<img src="{{asset('images/blog/1.jpg')}}" alt="">
+						<h6>holy sadie</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="/" class="animsition-link">
+					<div class="portfolio-box-2 white-section">
+						<img src="{{asset('images/blog/1.jpg')}}" alt="">
+						<h6>holy sadie</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="/" class="animsition-link">
+					<div class="portfolio-box-2 white-section">
+						<img src="{{asset('images/blog/1.jpg')}}" alt="">
+						<h6>holy sadie</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</a>
+			</li>					
+		</ul>
+	</section>
+	<section class="section bg_gray">
+		
+		<div class="container">
+			<div class="sixteen columns">
+				<ul id="owl-logos-4" class="owl-carousel owl-theme">
+					<li><img style="width: 60px; height: auto" src="{{asset('behaestex.png')}}" alt="" /></li>
+					<li><img style="width: 60px; height: auto" src="{{asset('act.png')}}" alt="" /></li>
+					<li><img style="width: 60px; height: auto" src="{{asset('pt.png')}}" alt="" /></li>
+					<li><img style="width: 60px; height: auto" src="{{asset('bri.png')}}" alt="" /></li>
+					<li><img style="width: 60px; height: auto" src="{{asset('pln.png')}}" alt="" /></li>
+					<li><img style="width: 60px; height: auto" src="{{asset('kemenag.png')}}" alt="" /></li>
+					<li><img style="width: 60px; height: auto" src="{{asset('bg.png')}}" alt="" /></li>
+					<li><img style="width: 60px; height: auto" src="{{asset('jtv.png')}}" alt="" /></li>
+					<li><img style="width: 60px; height: auto" src="{{asset('ramayana.png')}}" alt="" /></li>
+					<li><img style="width: 60px; height: auto" src="{{asset('Ybm.png')}}" alt="" /></li>
+					<li><img style="width: 60px; height: auto" src="{{asset('bulog.png')}}" alt="" /></li>
+					<li><img style="width: 60px; height: auto" src="{{asset('foz.png')}}" alt="" /></li>
+					
+				</ul>
+			</div>
+		</div>
 			
-			
+	</section>	
+		<section class="section">
+			<a class="button-map close-map" style="color:white;padding: 20px; background: #6cb6a3"><span>Lokasi Kami</span></a>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.366918887994!2d112.72820171513091!3d-7.312613194722392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb12ae9aeeb3%3A0xf64b5d223ef0d319!2sPesantren%20Al-Qur&#39;an%20Nurul%20Falah!5e0!3m2!1sid!2sid!4v1648439145705!5m2!1sid!2sid" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</section>
-			
 
 	<!-- FOOTER
     ================================================== -->	
 	
-		<section class="section footer-1 section-padding-top-bottom">	
-			<div class="container">
-				<div class="four columns" data-scroll-reveal="enter left move 200px over 0.5s after 0.8s">
-					<a href="index.html" class="animsition-link"><div class="logo-footer"></div></a>
+		<section  class="section footer-1 section-padding-top-bottom">	
+			<div class="container" >
+				<div  class="four columns" data-scroll-reveal="enter left move 200px over 0.5s after 0.8s">
+					<a href="/" class="animsition-link">
+						<img src="{{asset('nf_logo_white.png')}}" style="width: 200px" alt="">
+					</a>
 				</div>
 				<div class="four columns" data-scroll-reveal="enter left move 200px over 0.5s after 0.3s">
-					<h6><i class="icon-footer">&#xf041;</i>Kraljevo</h6>
-					<p>Nikole Tesle 41, Serbia<br/>
-					+381 602037802</p>
+					<h6 class="foot"><i class="icon-footer">&#xf015;</i>Lokasi Kami</h6>
+					<p class="foot"><i class="icon-footer">&#xf041; </i> Jl. Ketintang Timur PTT VB, Pesantren Nurul Falah</p>
 				</div>
 				<div class="four columns" data-scroll-reveal="enter right move 200px over 0.5s after 0.3s">
-					<h6><i class="icon-footer">&#xf041;</i>Belgrade</h6>
-					<p>Heroja Maricica 23, Serbia<br/>
-					+381 642342802</p>
+					<h6 class="foot"><i class="icon-footer">&#xf095;</i>Hubungi Kami</h6>
+					<p class="foot"><i class="icon-footer">&#xf098;</i> (031) 8281278</p>
+					<p class="foot"><i class="icon-footer">&#xf0e0;</i><a href="mailto:pes_nf@yahoo.co.id" title="">pes_nf@yahoo.co.id</a></p>
 				</div>
 				<div class="four columns" data-scroll-reveal="enter right move 200px over 0.5s after 0.8s">
-					<div class="social-bottom">
-						<ul class="list-social">
-							<li class="icon-soc">
-								<a href="#">&#xf099;</a>
-							</li>
-							<li class="icon-soc">
-								<a href="#">&#xf09a;</a>
-							</li>
-							<li class="icon-soc">
-								<a href="#">&#xf09b;</a>
-							</li>
-							<li class="icon-soc">
-								<a href="#">&#xf0d5;</a>
-							</li>
-						</ul>	
-					</div>
-					<p><i class="icon-footer">&#xf0e0;</i><a href="mailto:office@yoursite.com" title="">office@yoursite.com</a></p>
+					
+					<p class="foot"><i class="icon-footer">&#xf09a;</i><a href="/" title="">facebook</a></p>
+					<p class="foot"><i class="icon-footer">&#xf099;</i><a href="/" title="">twitter</a></p>
+					<p class="foot"><i class="icon-footer">&#xf16d;</i><a href="/" title="">instagram</a></p>
 				</div>	
 			</div>
 		</section>
 		<section class="section footer-bottom">	
 			<div class="container">
 				<div class="sixteen columns">
-					<p>© ALL RIGHTS RESERVED. MADE BY IG DESIGN 2014</p>
+					<p>© ALL RIGHTS RESERVED. MADE BY ME</p>
 				</div>	
 			</div>
 		</section>
@@ -791,6 +1056,12 @@
 <script type="text/javascript" src="js/jquery.fitvids.js"></script>
 <script type="text/javascript" src="js/custom-portfolio-home-1.js"></script>  	  
 <script type="text/javascript" src="js/custom-blog-grid-right.js"></script>  
+
+<script type="text/javascript" src="js/contact.js"></script>
+{{-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> --}}
+{{-- <script type="text/javascript" src="js/custom-contact.js"></script> --}}
+<script type="text/javascript" src="js/custom-carousels.js"></script>  	  
+<script type="text/javascript" src="js/custom-clients.js"></script>  
 <!-- End Document
 ================================================== -->
 
