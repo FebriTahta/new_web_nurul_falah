@@ -41,7 +41,7 @@
 		
 	<!-- Favicons
 	================================================== -->
-	{{-- <link rel="shortcut icon" href="favicon.png"> --}}
+	<link rel="shortcut icon" href="{{asset('nf.png')}}">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
@@ -227,155 +227,50 @@
 				<li>
 					<a href="/" class="animsition-link">Home</a>
 				</li>
-				<li class="has-children">
-					<a href="#">Events</a>
-					<ul class="cd-secondary-nav is-hidden">
-						<li class="go-back"><a href="#">Menu</a></li>
-						{{-- <li class="see-all"><a href="#">PILIH MENU</a></li> --}}
 
-						<li class="has-children">
-							<a href="#">Events</a>
-							<ul class="is-hidden">
-								<li class="go-back"><a href="#">Events</a></li>
-								<li><a href="/" class="animsition-link">Special Ramadhan</a></li>
-							</ul>
-						</li>
-					</ul>
+				<li>
+					<a href="/" class="animsition-link">Profile</a>
 				</li>
 
 				<li class="has-children">
-					<a href="#">Shop</a>
+					<a href="#">Media</a>
 
-					<ul class="cd-nav-gallery is-hidden">
+					<ul class="cd-nav-gallery is-hidden" style="max-height: 280px">
 						<li class="go-back"><a href="#">Menu</a></li>
-						<li class="see-all"><a href="/" class="animsition-link">Browse All</a></li>
 						<li>
 							<a class="cd-nav-item animsition-link" href="/">
-								<img src="images/shop1.jpg" alt="Product Image">
-								<h3>men</h3>
+								<img src="images/shop2.jpg" alt="Product Image">
+								<h3>Berita</h3>
 							</a>
 						</li>
 
 						<li>
 							<a class="cd-nav-item animsition-link" href="/">
 								<img src="images/shop2.jpg" alt="Product Image">
-								<h3>women</h3>
+								<h3>Artikel</h3>
 							</a>
 						</li>
 
 						<li>
 							<a class="cd-nav-item animsition-link" href="/">
 								<img src="images/shop3.jpg" alt="Product Image">
-								<h3>underwear</h3>
+								<h3>Majalah</h3>
 							</a>
 						</li>
 
 						<li>
 							<a class="cd-nav-item animsition-link" href="/">
 								<img src="images/shop4.jpg" alt="Product Image">
-								<h3>jewellry</h3>
+								<h3>Aplikasi & Buku</h3>
 							</a>
 						</li>
 					</ul>
 				</li>
-
-				<li class="has-children">
-					<a href="#">Shortcodes</a>
-					<ul class="cd-nav-icons is-hidden">
-						<li class="go-back"><a href="#">Menu</a></li>
-						<li class="see-all"><a href=/" class="animsition-link">More Shortcodes</a></li>
-						<li>
-							<a class="cd-nav-item item-1 animsition-link" href="/">
-								<h3>Buttons</h3>
-								<p>This is the page description</p>
-							</a>
-						</li>
-
-						<li>
-							<a class="cd-nav-item item-2 animsition-link" href="/">
-								<h3>Icons</h3>
-								<p>This is the page description</p>
-							</a>
-						</li>
-
-						<li>
-							<a class="cd-nav-item item-3 animsition-link" href="/">
-								<h3>Counters</h3>
-								<p>This is the page description</p>
-							</a>
-						</li>
-
-						<li>
-							<a class="cd-nav-item item-4 animsition-link" href="/">
-								<h3>Carousels</h3>
-								<p>This is the page description</p>
-							</a>
-						</li>
-
-						<li>
-							<a class="cd-nav-item item-5 animsition-link" href="/">
-								<h3>Media</h3>
-								<p>This is the page description</p>
-							</a>
-						</li>
-
-						<li>
-							<a class="cd-nav-item item-6 animsition-link" href="/">
-								<h3>Blockquotes</h3>
-								<p>This is the page description</p>
-							</a>
-						</li>
-
-						<li>
-							<a class="cd-nav-item item-7 animsition-link" href="/">
-								<h3>Process Steps</h3>
-								<p>This is the page description</p>
-							</a>
-						</li>
-
-						<li>
-							<a class="cd-nav-item item-8 animsition-link" href="/">
-								<h3>Alert Boxes</h3>
-								<p>This is the page description</p>
-							</a>
-						</li>
-						
-						<li>
-							<a class="cd-nav-item item-9 animsition-link" href="/">
-								<h3>Tabs</h3>
-								<p>This is the page description</p>
-							</a>
-						</li>
-
-						<li>
-							<a class="cd-nav-item item-10 animsition-link" href="/">
-								<h3>Pricing Boxes</h3>
-								<p>This is the page description</p>
-							</a>
-						</li>
-
-						<li>
-							<a class="cd-nav-item item-11 animsition-link" href="/">
-								<h3>Clients</h3>
-								<p>This is the page description</p>
-							</a>
-						</li>
-						
-						<li>
-							<a class="cd-nav-item item-12 animsition-link" href="/">
-								<h3>Lightbox</h3>
-								<p>This is the page description</p>
-							</a>
-						</li>
-					</ul>
+				<li>
+					<a href="/" class="animsition-link">Cabang</a>
 				</li>
-
 				<li>
 					<a href="/" class="animsition-link">Contact</a>
-				</li>
-				
-				<li>
-					<a href="/" class="animsition-link"><i class="fa fa-fw">&#xf07a;</i>cart</a>
 				</li>
 				
 			</ul> <!-- primary-nav -->
@@ -664,9 +559,12 @@
 	
 		<section class="section">	
 			<div class="container">
-				<div class="sixteen columns" style="margin-top: 20px">
-					<div class="section-title">
-						<h1>berita terkini</h1>
+				<div class="sixteen columns" style="margin-top: 50px; text-align: center">
+					<div class="section-title" style="text-align: center">
+						<h4>BERITA TERKINI</h4>
+						<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px">
+							<span class="muter" style="margin-right: 20px"><i class="fa fa-fw"></i> kabar terbaru nurul falah &nbsp;&nbsp;<i class="fa fa-fw"></i></span> 
+						</a>
 					</div>
 				</div>
 				<div class="two-thirds column">
@@ -717,20 +615,12 @@
 
 		<section class="section white-section" style="padding-top: 50px">
 			<div class="container">
-				<div class="sixteen columns" style="margin-top: 20px">
-					<div class="section-title">
-						<h1>Artikel</h1>
-					</div>
-				</div>
 				<div class="sixteen columns">
-					<div id="portfolio-filter">
-						<ul id="filter">
-							{{-- <li><a href="#" class="current" data-filter="*" title="">Show All</a></li>
-							<li><a href="#" data-filter=".photo" title="">Photo</a></li>
-							<li><a href="#" data-filter=".media" title="">Media</a></li>
-							<li><a href="#" data-filter=".news" title="">News</a></li>
-							<li><a href="#" data-filter=".links" title="">Links</a></li> --}}
-						</ul>
+					<div class="section-title" style="text-align: center">
+						<h4>ARTIKEl</h4>
+						<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px">
+							<span class="muter" style="margin-right: 20px"><i class="fa fa-fw"></i> perkaya ilmu pengerahuan &nbsp;&nbsp;<i class="fa fa-fw"></i></span> 
+						</a>
 					</div>
 				</div>
 			</div>
@@ -748,7 +638,7 @@
 										<div class="blog-date-1" style="background-color: #6cb6a3; border-radius: 10px">Hikmah</div>
 										<h6>Latest post</h6>
 										<p>Lorem ipsum dolor sit consectetur amet, adipisicing elit.</p>
-										<div class="link">&#xf178;</div>
+										<div class="link">&#xf178; Selengkapnya</div>
 									</div>
 								</div>
 							</a>
@@ -789,6 +679,7 @@
 								</div>
 							</a>
 						</div>
+
 					</div>
 				</div>
 				<div class="four columns">
@@ -813,7 +704,81 @@
 			</div>
 		</section>
 		
-		
+		<section class="section grey-section section-padding-top-bottom">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="section-title">
+						<h3>Pimpinan</h3>
+					</div>
+				</div>
+				<div class="one-third column" data-scroll-reveal="enter left move 200px over 1s after 0.3s">
+					<div class="team-box-1 full-image-box">
+						<img src="images/team1.jpg"  alt="">
+						<div class="team-box-1-text-in white-section">
+							<div class="team-name-top">Direktur Eksekutif</div>
+							<h6>Dr. Drs. KH. Umar Jaeni, M. Pd</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							<div class="social-team">
+								<ul class="team-social">
+									<li class="icon-team">
+										<a href="#">&#xf09a;</a>
+									</li>
+									<li class="icon-team">
+										<a href="#">&#xf09b;</a>
+									</li>
+									<li class="icon-team">
+										<a href="#">&#xf0d5;</a>
+									</li>
+								</ul>	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="one-third column" data-scroll-reveal="enter bottom move 200px over 1s after 0.3s">
+					<div class="team-box-1 full-image-box">
+						<img src="images/team2.jpg"  alt="">
+						<div class="team-box-1-text-in white-section">
+							<div class="team-name-top">Khodimul Ma'had</div>
+							<h6>Drs. KH. Ali Muaffa, M. Ag</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							<div class="social-team">
+								<ul class="team-social">
+									<li class="icon-team">
+										<a href="#">&#xf099;</a>
+									</li>
+									<li class="icon-team">
+										<a href="#">&#xf0d5;</a>
+									</li>
+								</ul>	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="one-third column" data-scroll-reveal="enter right move 200px over 1s after 0.3s">
+					<div class="team-box-1 full-image-box">
+						<img src="images/team3.jpg"  alt="">
+						<div class="team-box-1-text-in white-section">
+							<div class="team-name-top">Sekretaris</div>
+							<h6>Abdurrohim Hasan, M. Pd</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							<div class="social-team">
+								<ul class="team-social">
+									<li class="icon-team">
+										<a href="#">&#xf099;</a>
+									</li>
+									<li class="icon-team">
+										<a href="#">&#xf09a;</a>
+									</li>
+									<li class="icon-team">
+										<a href="#">&#xf0d5;</a>
+									</li>
+								</ul>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	<!-- SECTION
     ================================================== -->	
 	
@@ -1058,10 +1023,9 @@
 <script type="text/javascript" src="js/custom-blog-grid-right.js"></script>  
 
 <script type="text/javascript" src="js/contact.js"></script>
-{{-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> --}}
-{{-- <script type="text/javascript" src="js/custom-contact.js"></script> --}}
 <script type="text/javascript" src="js/custom-carousels.js"></script>  	  
 <script type="text/javascript" src="js/custom-clients.js"></script>  
+<script type="text/javascript" src="js/custom-grid-3col.js"></script>
 <!-- End Document
 ================================================== -->
 
