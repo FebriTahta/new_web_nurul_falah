@@ -895,7 +895,7 @@
 		<section  class="section footer-1 section-padding-top-bottom">	
 			<div class="container" >
 				<div  class="four columns" data-scroll-reveal="enter left move 200px over 0.5s after 0.8s">
-					<a href="/" class="animsition-link">
+					<a href="/" class="animsition-link foot">
 						<img src="{{asset('nf_logo_white.png')}}" style="width: 200px" alt="">
 					</a>
 				</div>
