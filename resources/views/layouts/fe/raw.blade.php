@@ -56,9 +56,13 @@
     <link rel="alternate stylesheet" type="text/css" href="css/colors/color-5.css" title="5">	
     <link rel="alternate stylesheet" type="text/css" href="css/colors/color-6.css" title="6">	
     <link rel="alternate stylesheet" type="text/css" href="css/colors/color-7.css" title="7">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 	
-
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script> 
 		
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	{{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> --}}
 	<!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="{{asset('nf.png')}}">
@@ -99,6 +103,13 @@
 			#social {
 				padding-top: 50px;
 			}
+			#sosmed {
+				margin-bottom: 100px;
+				margin-top: 50px;
+				padding-top: 10px;
+				padding-bottom: 20px;
+			}
+			
 		}
 		@media (max-width:449px) {
 			
@@ -153,6 +164,10 @@
 			#youtube {
 				margin-top: -50px;
 			}
+			#sosmed {
+				margin-bottom: -40px;
+				margin-top: -25px;
+			}
 		}
 
 		
@@ -166,39 +181,29 @@
 	================================================== -->
 
 	<div class="animsition">
-		<header class="header" id="header-media">
-            <nav class="nav container">
+		<header class="header" style="padding: 5%" id="header-media">
+            <nav class="nav">
                 <!-- <a href="#" class="nav__logo">Marlon</a> -->
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link" style="text-align: center">
-								<i class="fa fa-fw">&nbsp;&nbsp; </i>
-                                <span class="nav__name" style="font-size: 12px">Home</span>
-                            </a>
-                        </li>
-                        
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="fa fa-fw">&nbsp;&nbsp; </i>
-                                <span class="nav__name" style="font-size: 12px">Media</span>
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="fa fa-fw">&nbsp;&nbsp; </i>
-                                <span class="nav__name" style="font-size: 12px">Profile</span>
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
-                                <i class="fa fa-fw">&nbsp;&nbsp; </i>
-                                <span class="nav__name" style="font-size: 12px">Contact</span>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="nav__menu">
+                    <div class="row">
+						<div class="col-sm-3 col-3" style="text-align: center; margin-top: 30px; ">
+							<i class="fa fa-fw" style="margin-left: 5px"></i>
+							<h5 style="font-size: 10px; padding: 5px">HOME</h5>
+						</div>
+						<div class="col-sm-3 col-3" style="text-align: center; margin-top: 30px">
+							<i class="fa fa-fw" style="margin-left: 5px"></i>
+							<h5 style="font-size: 10px; padding: 5px">PROFILE</h5>
+						</div>
+						<div class="col-sm-3 col-3" style="text-align: center; margin-top: 30px">
+							<i class="fa fa-fw" style="margin-left: 5px"></i>
+							<h5 style="font-size: 10px; padding: 5px">MEDIA</h5>
+						</div>
+						
+						<div class="col-sm-3 col-3" style="text-align: center; margin-top: 30px">
+							<i class="fa fa-fw" style="margin-left: 5px"></i>
+							<h5 style="font-size: 10px; padding: 5px">CONTACT</h5>
+						</div>
+					</div>
                 </div>
             </nav>
         </header>
@@ -392,8 +397,8 @@
 				</div>
 			</div>
 		</section> --}}
-		<div class="bg_gray" style="padding-bottom: 20px">
-			<div class="container" id="social" style="margin-top: 70px">
+		<div class="bg_gray" id="sosmed">
+			<div class="container" id="social" style="margin-top: 70px; padding: 20px">
 				<div class="owl-carousel owl-theme categories_carousel">
 					<div class="item_version_2">
 						<a href="https://www.youtube.com/channel/UC1Xkdp_DKN0hJL85UWxH_Gg" target="_blank">
@@ -444,186 +449,184 @@
 							</figure>
 						</a>
 					</div>
-					
-					
-					
 				</div>
 				<!-- /carousel -->
 			</div>
 		</div>
 		
 
-		<div class="container" id="spesial-event" style="padding: 0;">
-			<div class="sixteen columns events" id="head-event">
-				<div class="section-title" style="text-align: center">
-					<h4>spesial ramadhan</h4>
-					<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px">
-						<i class="fa fa-fw"></i> <span class="muter" style="margin-right: 10px">informasi selengkapnya</span> <i class="fa fa-fw"></i>
-					</a>
-				</div>
-			</div>
-			<div class="eleven columns">
-				<div id="owl-portfolio-slider" class="owl-carousel owl-theme">
-					<div class="item" style="display: block">
-						<img src="images/portfolio/big/2.jpg" alt="" style="margin-bottom: 10px">
-						{{-- <a href="#" class="button-shortcodes text-size-1 text-padding-5 version-1"><span></span> Nurul Falah</a> --}}
-						<a href="#" class="one-third ">
-							<i class="fa fa-fw"></i>
-							<span class="muted">Nama Agenda Kegiatan</span>
-						</a>
-					</div>
-					<div class="item">
-						<img src="images/portfolio/big/3.jpg" alt="" style="margin-bottom: 10px">
-						<a href="#" class="one-third ">
-							<i class="fa fa-fw"></i>
-							<span class="muted">Nama Agenda Kegiatan</span>
-						</a>
-					</div>
-					<div class="item">
-						<img src="images/portfolio/big/4.jpg" alt="" style="margin-bottom: 10px">
-						<a href="#" class="one-third ">
-							<i class="fa fa-fw"></i>
-							<span class="muted">Nama Agenda Kegiatan</span>
+		<div class="container" id="spesial-event">
+			
+			<div class="row">
+				<div class="sixteen columns" style="margin-top: 50px; text-align: center">
+					<div class="section-title" style="text-align: center">
+						<h4 style="text-align: left;">SPESIAL RAMADHAN</h4>
+						<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px; text-align: left; margin: 0; padding: 0;">
+							<span class="muter"><i class="fa fa-fw"></i> Informasi Acara Selengkapnya</span> 
 						</a>
 					</div>
 				</div>
-			</div>
-			<div class="five columns">
-				<div class="ajax-project-content">
-					<p class="desc-event">Berikut adalah events / acara special yang kami selenggarakan dalam kurun waktu tertentu.</p>
-					<div class="ajax-project-info owner-event">
-						<div class="ajax-info"><span>&#xf0c0;</span><strong>Owner:</strong> NURUL FALAH</div>
-						<div class="ajax-info"><span>&#xf017;</span><strong>Waktu :</strong> BULAN RAMADHAN</div>
-						<div class="ajax-info"><span>&#xf168;</span><strong>Tema &nbsp;&nbsp;&nbsp;:</strong> SPECIAL RAMADHAN</div>
+				<div class="col-md-8">
+					<div id="owl-portfolio-slider" class="owl-carousel owl-theme">
+						<div class="item" style="display: block; margin-bottom: 10px">
+							<img src="images/portfolio/big/2.jpg" alt="" style="margin-bottom: 10px">
+							<a href="#" class="one-third ">
+								<i class="fa fa-fw"></i>
+								<span class="muted">Nama Agenda Kegiatan</span>
+							</a>
+						</div>
+						<div class="item">
+							<img src="images/portfolio/big/3.jpg" alt="" style="margin-bottom: 10px">
+							<a href="#" class="one-third ">
+								<i class="fa fa-fw"></i>
+								<span class="muted">Nama Agenda Kegiatan</span>
+							</a>
+						</div>
+						<div class="item">
+							<img src="images/portfolio/big/4.jpg" alt="" style="margin-bottom: 10px">
+							<a href="#" class="one-third ">
+								<i class="fa fa-fw"></i>
+								<span class="muted">Nama Agenda Kegiatan</span>
+							</a>
+						</div>
 					</div>
-					<a href="#" id="info-event"><div class="ajax-link">informasi selengkapnya</div></a>
+				</div>
+				<div class="col-md-4">
+					<div class="ajax-project-content">
+						<p class="desc-event">Berikut adalah events / acara special yang kami selenggarakan dalam kurun waktu tertentu.</p>
+						<div class="ajax-project-info owner-event">
+							<div class="ajax-info"><span>&#xf0c0;</span><strong>Owner:</strong> NURUL FALAH</div>
+							<div class="ajax-info"><span>&#xf017;</span><strong>Waktu :</strong> BULAN RAMADHAN</div>
+							<div class="ajax-info"><span>&#xf168;</span><strong>Tema &nbsp;&nbsp;&nbsp;:</strong> SPECIAL RAMADHAN</div>
+						</div>
+						<a href="#" id="info-event"><div class="ajax-link">informasi selengkapnya</div></a>
+					</div>
 				</div>
 			</div>
 		</div>
 		
 		<div class="bg_gray">
-			<div class="container" id="youtube">
-				<br>
-				<div class="main_title">
-					<i class="fa fa-fw" style="font-size: 40px; color: red"> YouTube</i>
-					<a href="#0" class="muted">Nurul Falah Media</a>
+			<div class="container" id="youtube" style="padding: 20px">
+				<div class="">
+					<div class="main_title">
+						<i class="fa fa-fw" style="font-size: 40px; color: red"> YouTube</i>
+						<a href="#0" class="muted">Nurul Falah Media</a>
+					</div>
+					<div class="owl-carousel owl-theme carousel_4">
+						<div class="item">
+							<div class="strip">
+								<figure>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/j2rVkTHTOIw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
+								</figure>
+								<ul>
+									<li><span class="take yes">Tarhib Ramadhan</span> </li>
+									<li></li>
+								</ul>
+							</div>
+						</div>
+						<div class="item">
+							<div class="strip">
+								<figure>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/T7pnFWi3W7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
+								</figure>
+								<ul>
+									<li><span class="take yes">Tarhib Ramadhan</span> </li>
+									<li></li>
+								</ul>
+							</div>
+						</div>
+						<div class="item">
+							<div class="strip">
+								<figure>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/qn5BmYqQEYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
+								</figure>
+								<ul>
+									<li><span class="take yes">Tarhib Ramadhan</span> </li>
+									<li></li>
+								</ul>
+							</div>
+						</div>
+						<div class="item">
+							<div class="strip">
+								<figure>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/PTEeJ9G0vW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
+								</figure>
+								<ul>
+									<li><span class="take yes">Tarhib Ramadhan</span> </li>
+									<li></li>
+								</ul>
+							</div>
+						</div>
+						<div class="item">
+							<div class="strip">
+								<figure>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/2UJk7MSWGBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
+								</figure>
+								<ul>
+									<li><span class="take yes">Tarhib Ramadhan</span> </li>
+									<li></li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="owl-carousel owl-theme carousel_4">
-					<div class="item">
-						<div class="strip">
-							<figure>
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/j2rVkTHTOIw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
-							</figure>
-							<ul>
-								<li><span class="take yes">Tarhib Ramadhan</span> </li>
-								<li></li>
-							</ul>
-						</div>
-					</div>
-					<div class="item">
-						<div class="strip">
-							<figure>
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/T7pnFWi3W7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
-							</figure>
-							<ul>
-								<li><span class="take yes">Tarhib Ramadhan</span> </li>
-								<li></li>
-							</ul>
-						</div>
-					</div>
-					<div class="item">
-						<div class="strip">
-							<figure>
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/qn5BmYqQEYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
-							</figure>
-							<ul>
-								<li><span class="take yes">Tarhib Ramadhan</span> </li>
-								<li></li>
-							</ul>
-						</div>
-					</div>
-					<div class="item">
-						<div class="strip">
-							<figure>
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/PTEeJ9G0vW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
-							</figure>
-							<ul>
-								<li><span class="take yes">Tarhib Ramadhan</span> </li>
-								<li></li>
-							</ul>
-						</div>
-					</div>
-					<div class="item">
-						<div class="strip">
-							<figure>
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/2UJk7MSWGBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
-							</figure>
-							<ul>
-								<li><span class="take yes">Tarhib Ramadhan</span> </li>
-								<li></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<!-- /carousel -->
-				<br>
 			</div>
 		</div>
 
 	<!-- SECTION
     ================================================== -->	
 	
-		<section class="section">	
-			<div class="container">
-				<div class="sixteen columns" style="margin-top: 50px; text-align: center">
-					<div class="section-title" style="text-align: center">
-						<h4>BERITA TERKINI</h4>
-						<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px">
-							<span class="muter" style="margin-right: 20px"><i class="fa fa-fw"></i> kabar terbaru nurul falah &nbsp;&nbsp;<i class="fa fa-fw"></i></span> 
-						</a>
+		<div class="">
+			<div class="container" id="youtube" style="padding: 20px">
+				<div class="row">
+					<div class="sixteen columns" style="margin-top: 50px; text-align: center">
+						<div class="section-title" style="text-align: center">
+							<h4 style="text-align: left">BERITA TERKINI</h4>
+							<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px; text-align: left; margin: 0; padding: 0;">
+								<span class="muter"><i class="fa fa-fw"></i> kabar terbaru nurul falah</span> 
+							</a>
+						</div>
 					</div>
-				</div>
-				<div class="two-thirds column">
-					<div class="blog-big-wrapper deskripsi">
-						<img src="images/blog/9.jpg" alt="">
-						<div class="bottom-text" style="font-size: 14px">17th Oct 2014</div>
-						<a href="/" class="animsition-link"><h5>THIS IS A STANDARD POST WITH A PREVIEW IMAGE</h5></a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus...</p>
-							<a href="/" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
-					</div>
-					{{-- <a href="" style="width: 100%; text-align: center; margin-top: 170px" class="button-shortcodes text-size-1 text-padding-1 version-1">baca berita lainnya <span class="right-icon"></span></a> --}}
-				</div>
-				<div class="one-third column">
-					<div class="full-image">
+					<div class="col-md-8">
 						<div class="blog-big-wrapper deskripsi">
 							<img src="images/blog/9.jpg" alt="">
 							<div class="bottom-text" style="font-size: 14px">17th Oct 2014</div>
-							<a href="/" class="animsition-link"><h5>THIS IS A STANDARD POST</h5></a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
-							<a href="/" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
-							
+							<a href="/" class="animsition-link"><h5>THIS IS A STANDARD POST WITH A PREVIEW IMAGE</h5></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus...</p>
+								<a href="/" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
+						</div>
+					</div>
+					<div class="col md-4">
+						<div class="full-image">
+							<div class="blog-big-wrapper deskripsi">
+								<img src="images/blog/9.jpg" alt="">
+								<div class="bottom-text" style="font-size: 14px">17th Oct 2014</div>
+								<a href="/" class="animsition-link"><h5>THIS IS A STANDARD POST</h5></a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
+								<a href="/" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
+							</div>
+						</div>
+						<div class="full-image">
+							<div class="blog-big-wrapper deskripsi">
+								<img src="images/blog/9.jpg" alt="">
+								<div class="bottom-text" style="font-size: 14px">17th Oct 2014</div>
+								<a href="/" class="animsition-link"><h5>THIS IS A STANDARD POST</h5></a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
+								<a href="/" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="one-third column">
-					<div class="full-image deskripsi">
-						<div class="blog-big-wrapper">
-							<img src="images/blog/9.jpg" alt="">
-							<div class="bottom-text" style="font-size: 14px">17th Oct 2014</div>
-							<a href="/" class="animsition-link"><h5>THIS IS A STANDARD POST</h5></a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
-							<a href="/" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
-						</div>
-					</div>
-					{{-- <a href="" style="width: 100%; text-align: center; margin-top: 50px" class="button-shortcodes text-size-1 text-padding-1 version-1">baca berita lainnya <span class="right-icon"></span></a> --}}
-				</div>
-				<div class="clear"></div>
 			</div>
+		</div>
+
+
+		<section class="section">	
 			<div class="call-to-action-1" style="background-color: #6cb6a3">
 				<h5>BACA BERITA SELENGKAPNYA DIBAWAH INI</h5>
 				<a href="#" class="button-1 animsition-link" style="border-color: white">BACA SELENGKAPNYA</a>
@@ -634,170 +637,223 @@
 	<!-- SECTION
     ================================================== -->	
 
-		<section class="section white-section" style="padding-top: 50px">
-			<div class="container">
-				<div class="sixteen columns">
+		<section class="section white-section" style="padding-top: 30px;">
+			<div class="container" style="padding-bottom: 20px">
+				<div class="">
 					<div class="section-title" style="text-align: center">
-						<h4>ARTIKEl</h4> 
-						<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px">
-							<span class="muter" style="margin-right: 10px"><i class="fa fa-fw"></i> perkaya ilmu pengerahuan &nbsp;&nbsp;<i class="fa fa-fw"></i></span> 
+						<h4 style=" margin: 0;">ARTIKEl</h4> 
+						<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px; margin: 0;">
+							<span class="muter" style="margin-right: 5px"><i class="fa fa-fw"></i> perkaya ilmu pengerahuan &nbsp;&nbsp;<i class="fa fa-fw"></i></span> 
 						</a>
 					</div>
 				</div>
 			</div>
 			
 			<div class="clear"></div>
-			
 			<div class="container">
-				<div class="twelve columns remove-top">
-					<div class="blog-wrapper">
-						<div id="blog-grid-masonry" class="isotope" style="position: relative; overflow: hidden; height: 3373px;">
-							<a href="#" class="animsition-link">
-								<div class="blog-box-3 half-blog-width photo">
-									<div class="blog-box-1 grey-section">
-										<img src="images/blog/1.jpg"  alt="">
-										<div class="blog-date-1" style="background-color: #6cb6a3; border-radius: 10px">Hikmah</div>
-										<h6>Latest post</h6>
-										<p>Lorem ipsum dolor sit consectetur amet, adipisicing elit.</p>
-										<div class="link">&#xf178; Selengkapnya</div>
-									</div>
+				<div class="row">
+					<div class="col-md-12" style="padding-bottom: 10px">
+						<div class="row">
+							<div class="col-md-4 col-6">
+								<img src="images/blog/1.jpg" alt="">
+								<span style="font-size: 11px">12 Maret 2022</span>
+							</div>
+							<div class="col-md-8 col-6">
+								<div class="blog-box-1" style="padding: 0; margin: 0;">
+									<h5 style="font-size: 12px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
+									<a class="link" style="bottom: 0;">&#xf178; Selengkapnya</a>
 								</div>
-							</a>
-							
-							<a href="#" class="animsition-link">
-								<div class="blog-box-3 half-blog-width media">
-									<div class="blog-box-1 grey-section">
-										<img src="images/blog/2.jpg"  alt="">
-										<div class="blog-date-1" style="background-color: #6cb6a3; border-radius: 10px">Hikmah</div>
-										<h6>Latest post</h6>
-										<p>Lorem ipsum dolor sit consectetur amet, adipisicing elit.</p>
-										<div class="link"> &#xf178; Selengkapnya</div>
-									</div>
-								</div>
-							</a>
-
-							<a href="#" class="animsition-link">
-								<div class="blog-box-3 half-blog-width news">
-									<div class="blog-box-1 grey-section">
-										<img src="images/blog/1.jpg"  alt="">
-										<div class="blog-date-1" style="background-color: #6cb6a3; border-radius: 10px">Hikmah</div>
-										<h6>Latest post</h6>
-										<p>Lorem ipsum dolor sit consectetur amet, adipisicing elit.</p>
-										<div class="link"> &#xf178; Selengkapnya</div>
-									</div>
-								</div>
-							</a>
-
-							<a href="#" class="animsition-link">
-								<div class="blog-box-3 half-blog-width links">
-									<div class="blog-box-1 grey-section">
-										<img src="images/blog/1.jpg"  alt="">
-										<div class="blog-date-1" style="background-color: #6cb6a3; border-radius: 10px">Hikmah</div>
-										<h6>Latest post</h6>
-										<p>Lorem ipsum dolor sit consectetur amet, adipisicing elit.</p>
-										<div class="link"> &#xf178; Selengkapnya</div>
-									</div>
-								</div>
-							</a>
+							</div>
 						</div>
-
 					</div>
+					<div class="col-md-12" style="padding-bottom: 10px">
+						<div class="row">
+							<div class="col-md-4 col-6">
+								<img src="images/blog/1.jpg" alt="">
+								<span style="font-size: 11px">12 Maret 2022</span>
+							</div>
+							<div class="col-md-8 col-6">
+								<div class="blog-box-1" style="padding: 0; margin: 0;">
+									<h5 style="font-size: 12px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
+									<a class="link" style="bottom: 0;">&#xf178; Selengkapnya</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12" style="padding-bottom: 10px">
+						<div class="row">
+							<div class="col-md-4 col-6">
+								<img src="images/blog/1.jpg" alt="">
+								<span style="font-size: 11px">12 Maret 2022</span>
+							</div>
+							<div class="col-md-8 col-6">
+								<div class="blog-box-1" style="padding: 0; margin: 0;">
+									<h5 style="font-size: 12px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
+									<a class="link" style="bottom: 0;">&#xf178; Selengkapnya</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+
+
 				</div>
-				<div class="four columns">
-					<div class="post-sidebar">
-						<h6 style="text-align: center">JADWAL SHOLAT</h6>
+			</div>
+			{{-- <div class="container">
+				<div class="row">
+					<div class="col-md-9 remove-top">
+						<div class="blog-wrapper">
+							<div id="blog-grid-masonry" class="isotope" style="position: relative; overflow: hidden; height: 3373px;">
+								<a href="#" class="animsition-link">
+									<div class="blog-box-3 half-blog-width photo">
+										<div class="blog-box-1 grey-section">
+											<img src="images/blog/1.jpg"  alt="">
+											<div class="blog-date-1" style="background-color: #6cb6a3; border-radius: 10px">Hikmah</div>
+											<h6>Latest post</h6>
+											<p>Lorem ipsum dolor sit consectetur amet, adipisicing elit.</p>
+											<div class="link">&#xf178; Selengkapnya</div>
+										</div>
+									</div>
+								</a>
+								
+								<a href="#" class="animsition-link">
+									<div class="blog-box-3 half-blog-width media">
+										<div class="blog-box-1 grey-section">
+											<img src="images/blog/2.jpg"  alt="">
+											<div class="blog-date-1" style="background-color: #6cb6a3; border-radius: 10px">Hikmah</div>
+											<h6>Latest post</h6>
+											<p>Lorem ipsum dolor sit consectetur amet, adipisicing elit.</p>
+											<div class="link"> &#xf178; Selengkapnya</div>
+										</div>
+									</div>
+								</a>
+	
+								<a href="#" class="animsition-link">
+									<div class="blog-box-3 half-blog-width news">
+										<div class="blog-box-1 grey-section">
+											<img src="images/blog/1.jpg"  alt="">
+											<div class="blog-date-1" style="background-color: #6cb6a3; border-radius: 10px">Hikmah</div>
+											<h6>Latest post</h6>
+											<p>Lorem ipsum dolor sit consectetur amet, adipisicing elit.</p>
+											<div class="link"> &#xf178; Selengkapnya</div>
+										</div>
+									</div>
+								</a>
+	
+								<a href="#" class="animsition-link">
+									<div class="blog-box-3 half-blog-width links">
+										<div class="blog-box-1 grey-section">
+											<img src="images/blog/1.jpg"  alt="">
+											<div class="blog-date-1" style="background-color: #6cb6a3; border-radius: 10px">Hikmah</div>
+											<h6>Latest post</h6>
+											<p>Lorem ipsum dolor sit consectetur amet, adipisicing elit.</p>
+											<div class="link"> &#xf178; Selengkapnya</div>
+										</div>
+									</div>
+								</a>
+							</div>
+	
+						</div>
+					</div>
+					<div class="col-md-3" style="text-align: center">
+						<h6 style="text-align: center; margin: 15px">JADWAL SHOLAT</h6>
 						<iframe id="iframe" title="prayerWidget" class="widget-m-top" style=" height: 362px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/1625822/shafi/11/0/20.0/18.0"> </iframe>
-						<div class="separator-sidebar"></div>
+						<div class="separator-sidebar" style="margin-bottom: 40px"></div>
 						<h6 style="text-align: center">HARI SPESIAL ISLAM</h6>
-						<ul id="islamic-days-desktop">
+						<ul id="islamic-days-desktop" style="padding: 0; margin: 0;">
 							<iframe  style="height: 460px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/specialislamicdays"> </iframe>
 						</ul>
-						<ul id="islamic-days-mobile">
+						<ul id="islamic-days-mobile" style="padding: 0; margin: 0;">
 							<iframe style="height: 418px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/specialislamicdays"> </iframe>
 						</ul>
 						<div class="separator-sidebar"></div>
 					</div>
 				</div>
-			</div>
+			</div> --}}
+			
 			<div class="call-to-action-1" style="background-color: #6cb6a3;">
 				<h5>BACA ARTIKEL SELENGKAPNYA DIBAWAH INI</h5>
 				<a href="#" class="button-1 animsition-link" style="border-color: white">BACA SELENGKAPNYA</a>
 			</div>
 		</section>
 		
-		<section class="section grey-section section-padding-top-bottom">
+		<section class="section grey-section" style="text-align: center">
 			<div class="container">
-				<div class="sixteen columns">
-					<div class="section-title">
-						<h3>Pimpinan</h3>
+				<div class="row" style="padding: 5%;">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h3>Pimpinan</h3>
+						</div>
 					</div>
-				</div>
-				<div class="one-third column" data-scroll-reveal="enter left move 200px over 1s after 0.3s">
-					<div class="team-box-1 full-image-box">
-						<img src="images/team1.jpg"  alt="">
-						<div class="team-box-1-text-in white-section">
-							<div class="team-name-top">Direktur Eksekutif</div>
-							<h6>Dr. Drs. KH. Umar Jaeni, M. Pd</h6>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							<div class="social-team">
-								<ul class="team-social">
-									<li class="icon-team">
-										<a href="#">&#xf09a;</a>
-									</li>
-									<li class="icon-team">
-										<a href="#">&#xf09b;</a>
-									</li>
-									<li class="icon-team">
-										<a href="#">&#xf0d5;</a>
-									</li>
-								</ul>	
+					<div class="col-md-4" style="margin-bottom: 20px" data-scroll-reveal="enter left move 200px over 1s after 0.3s">
+						<div class="team-box-1 full-image-box">
+							<img src="images/team1.jpg"  alt="">
+							<div class="team-box-1-text-in white-section">
+								<div class="team-name-top">Direktur Eksekutif</div>
+								<h6>Dr. Drs. KH. Umar Jaeni, M. Pd</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<div class="row">
+									<ul class="team-social">
+										<li class="icon-team">
+											<a href="#">&#xf09a;</a>
+										</li>
+										<li class="icon-team">
+											<a href="#">&#xf09b;</a>
+										</li>
+										<li class="icon-team">
+											<a href="#">&#xf0d5;</a>
+										</li>
+									</ul>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 " style="margin-bottom: 20px" data-scroll-reveal="enter bottom move 200px over 1s after 0.3s">
+						<div class="team-box-1 full-image-box">
+							<img src="images/team2.jpg"  alt="">
+							<div class="team-box-1-text-in white-section">
+								<div class="team-name-top">Khodimul Ma'had</div>
+								<h6>Drs. KH. Ali Muaffa, M. Ag</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<div class="row">
+									<ul class="team-social">
+										<li class="icon-team">
+											<a href="#">&#xf099;</a>
+										</li>
+										<li class="icon-team">
+											<a href="#">&#xf0d5;</a>
+										</li>
+									</ul>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 " style="margin-bottom: 20px" data-scroll-reveal="enter right move 200px over 1s after 0.3s">
+						<div class="team-box-1 full-image-box">
+							<img src="images/team3.jpg"  alt="">
+							<div class="team-box-1-text-in white-section">
+								<div class="team-name-top">Sekretaris</div>
+								<h6>Abdurrohim Hasan, M. Pd</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<div class="row">
+									<ul class="team-social">
+										<li class="icon-team">
+											<a href="#">&#xf099;</a>
+										</li>
+										<li class="icon-team">
+											<a href="#">&#xf09a;</a>
+										</li>
+										<li class="icon-team">
+											<a href="#">&#xf0d5;</a>
+										</li>
+									</ul>	
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="one-third column" data-scroll-reveal="enter bottom move 200px over 1s after 0.3s">
-					<div class="team-box-1 full-image-box">
-						<img src="images/team2.jpg"  alt="">
-						<div class="team-box-1-text-in white-section">
-							<div class="team-name-top">Khodimul Ma'had</div>
-							<h6>Drs. KH. Ali Muaffa, M. Ag</h6>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							<div class="social-team">
-								<ul class="team-social">
-									<li class="icon-team">
-										<a href="#">&#xf099;</a>
-									</li>
-									<li class="icon-team">
-										<a href="#">&#xf0d5;</a>
-									</li>
-								</ul>	
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="one-third column" data-scroll-reveal="enter right move 200px over 1s after 0.3s">
-					<div class="team-box-1 full-image-box">
-						<img src="images/team3.jpg"  alt="">
-						<div class="team-box-1-text-in white-section">
-							<div class="team-name-top">Sekretaris</div>
-							<h6>Abdurrohim Hasan, M. Pd</h6>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							<div class="social-team">
-								<ul class="team-social">
-									<li class="icon-team">
-										<a href="#">&#xf099;</a>
-									</li>
-									<li class="icon-team">
-										<a href="#">&#xf09a;</a>
-									</li>
-									<li class="icon-team">
-										<a href="#">&#xf0d5;</a>
-									</li>
-								</ul>	
-							</div>
-						</div>
-					</div>
-				</div>
+				
 			</div>
 		</section>
 	<!-- SECTION
@@ -806,80 +862,83 @@
 	<section class="section bg_gray" style="padding-bottom: 20px">
 		
 		<div class="container">
-			<div class="sixteen columns">
+			<div style="margin-top: 20px">
 				<div class="section-title">
 					<h3>trending topic artikel</h3>
 					<div class="subtitle">berikut adalah artikel yang paling sering dibaca</div>
 				</div>
 			</div>
 		</div>
-		<ul id="owl-carousel-5" class="owl-carousel owl-theme">
+		<div class="row" style="padding: 5%">
+			<ul id="owl-carousel-5" class="owl-carousel owl-theme">
 					
-			<li>
-				<a href="/" class="animsition-link">
-					<div class="portfolio-box-2 white-section">
-						<img src="{{asset('images/blog/1.jpg')}}" alt="">
-						<h6>holy sadie</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-					</div>
-				</a>
-			</li>
-					
-			<li>
-				<a href="/" class="animsition-link">
-					<div class="portfolio-box-2 white-section">
-						<img src="{{asset('images/blog/1.jpg')}}" alt="">
-						<h6>holy sadie</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="/" class="animsition-link">
-					<div class="portfolio-box-2 white-section">
-						<img src="{{asset('images/blog/1.jpg')}}" alt="">
-						<h6>holy sadie</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="/" class="animsition-link">
-					<div class="portfolio-box-2 white-section">
-						<img src="{{asset('images/blog/1.jpg')}}" alt="">
-						<h6>holy sadie</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="/" class="animsition-link">
-					<div class="portfolio-box-2 white-section">
-						<img src="{{asset('images/blog/1.jpg')}}" alt="">
-						<h6>holy sadie</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="/" class="animsition-link">
-					<div class="portfolio-box-2 white-section">
-						<img src="{{asset('images/blog/1.jpg')}}" alt="">
-						<h6>holy sadie</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="/" class="animsition-link">
-					<div class="portfolio-box-2 white-section">
-						<img src="{{asset('images/blog/1.jpg')}}" alt="">
-						<h6>holy sadie</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-					</div>
-				</a>
-			</li>					
-		</ul>
+				<li>
+					<a href="/" class="animsition-link">
+						<div class="portfolio-box-2 white-section">
+							<img src="{{asset('images/blog/1.jpg')}}" alt="">
+							<h6>holy sadie</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</a>
+				</li>
+						
+				<li>
+					<a href="/" class="animsition-link">
+						<div class="portfolio-box-2 white-section">
+							<img src="{{asset('images/blog/1.jpg')}}" alt="">
+							<h6>holy sadie</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/" class="animsition-link">
+						<div class="portfolio-box-2 white-section">
+							<img src="{{asset('images/blog/1.jpg')}}" alt="">
+							<h6>holy sadie</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/" class="animsition-link">
+						<div class="portfolio-box-2 white-section">
+							<img src="{{asset('images/blog/1.jpg')}}" alt="">
+							<h6>holy sadie</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/" class="animsition-link">
+						<div class="portfolio-box-2 white-section">
+							<img src="{{asset('images/blog/1.jpg')}}" alt="">
+							<h6>holy sadie</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/" class="animsition-link">
+						<div class="portfolio-box-2 white-section">
+							<img src="{{asset('images/blog/1.jpg')}}" alt="">
+							<h6>holy sadie</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/" class="animsition-link">
+						<div class="portfolio-box-2 white-section">
+							<img src="{{asset('images/blog/1.jpg')}}" alt="">
+							<h6>holy sadie</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</a>
+				</li>					
+			</ul>
+		</div>
+		
 	</section>
 	<section class="section bg_gray">
 		

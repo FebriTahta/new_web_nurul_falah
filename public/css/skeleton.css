@@ -50,8 +50,8 @@
 		.container .fifteen.columns                 { width: 1105px; }
 		.container .sixteen.columns                 { width: 1180px; }
 
-		.container .one-third.column                { width: 380px; }
-		.container .two-thirds.column               { width: 780px; }
+		.container .one-third.column                { width: 36%; }
+		.container .two-thirds.column               { width: 60%; }
         
         .container .one-fourth.column                { width: 380px; }
 
