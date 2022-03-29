@@ -640,7 +640,7 @@
 					<div class="section-title" style="text-align: center">
 						<h4>ARTIKEl</h4>
 						<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px">
-							<span class="muter" style="margin-right: 20px"><i class="fa fa-fw"></i> perkaya ilmu pengerahuan &nbsp;&nbsp;<i class="fa fa-fw"></i></span> 
+							<span class="muter" style="margin-right: 10px"><i class="fa fa-fw"></i> perkaya ilmu pengerahuan &nbsp;&nbsp;<i class="fa fa-fw"></i></span> 
 						</a>
 					</div>
 				</div>
