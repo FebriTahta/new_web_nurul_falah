@@ -6,15 +6,35 @@
 
 	<!-- Basic Page Needs
   ================================================== -->
-	<meta charset="utf-8">
+	{{-- <meta charset="utf-8">
 	<title>Nurul Falah</title>
 	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="author" content=""> --}}
 
 	<!-- Mobile Specific Metas
   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	{{-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> --}}
+	<!-- HTML Meta Tags -->
+	<title>Nurul Falah</title>
+	<meta name="description" content="Pesantren Al Quran Nurul Falah Surabaya">
 	
+	<!-- Google / Search Engine Tags -->
+	<meta itemprop="name" content="Nurul Falah">
+	<meta itemprop="description" content="Pesantren Al Quran Nurul Falah Surabaya">
+	<meta itemprop="image" content="https://tes.tilawatipusat.com/nf_logo.png">
+	
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="https://tes.tilawatipusat.com">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Nurul Falah">
+	<meta property="og:description" content="Pesantren Al Quran Nurul Falah Surabaya">
+	<meta property="og:image" content="https://tes.tilawatipusat.com/nf_logo.png">
+	
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Nurul Falah">
+	<meta name="twitter:description" content="Pesantren Al Quran Nurul Falah Surabaya">
+	<meta name="twitter:image" content="https://tes.tilawatipusat.com/nf_logo.png">
 	
 	
 	<!-- CSS
