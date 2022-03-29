@@ -983,7 +983,7 @@
 <script type="text/javascript">
 	$('.header-top').hidescroll();
 </script>
-{{-- <script type="text/javascript" src="js/smoothScroll.js"></script> --}}
+<script type="text/javascript" src="js/smoothScroll.js"></script>
 <script type="text/javascript" src="js/isotope.js"></script> 
 <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
 <script type="text/javascript" src="js/waypoints.min.js"></script>
