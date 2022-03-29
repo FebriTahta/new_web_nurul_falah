@@ -21,20 +21,20 @@
 	<!-- Google / Search Engine Tags -->
 	<meta itemprop="name" content="Nurul Falah">
 	<meta itemprop="description" content="Pesantren Al Quran Nurul Falah Surabaya">
-	<meta itemprop="image" content="https://tes.tilawatipusat.com/nf_logo.png">
+	<meta itemprop="image" content="https://tes.tilawatipusat.com/nf.png">
 	
 	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="https://tes.tilawatipusat.com">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Nurul Falah">
 	<meta property="og:description" content="Pesantren Al Quran Nurul Falah Surabaya">
-	<meta property="og:image" content="https://tes.tilawatipusat.com/nf_logo.png">
+	<meta property="og:image" content="https://tes.tilawatipusat.com/nf.png">
 	
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Nurul Falah">
 	<meta name="twitter:description" content="Pesantren Al Quran Nurul Falah Surabaya">
-	<meta name="twitter:image" content="https://tes.tilawatipusat.com/nf_logo.png">
+	<meta name="twitter:image" content="https://tes.tilawatipusat.com/nf.png">
 	
 	
 	<!-- CSS
