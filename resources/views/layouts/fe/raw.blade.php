@@ -660,8 +660,20 @@
 							</div>
 							<div class="col-md-8 col-6">
 								<div class="blog-box-1" style="padding: 0; margin: 0;">
-									<h5 style="font-size: 12px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
-									<a class="link" style="bottom: 0;">&#xf178; Selengkapnya</a>
+									<h5 style="font-size: 14px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12" style="padding-bottom: 10px">
+						<div class="row">
+							<div class="col-md-4 col-6">
+								<img src="images/blog/1.jpg" alt="">
+								<span style="font-size: 11px">12 Maret 2022</span>
+							</div>
+							<div class="col-md-8 col-6">
+								<div class="blog-box-1" style="padding: 0; margin: 0;">
+									<h5 style="font-size: 14px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
 								</div>
 							</div>
 						</div>
@@ -675,29 +687,10 @@
 							<div class="col-md-8 col-6">
 								<div class="blog-box-1" style="padding: 0; margin: 0;">
 									<h5 style="font-size: 12px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
-									<a class="link" style="bottom: 0;">&#xf178; Selengkapnya</a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-12" style="padding-bottom: 10px">
-						<div class="row">
-							<div class="col-md-4 col-6">
-								<img src="images/blog/1.jpg" alt="">
-								<span style="font-size: 11px">12 Maret 2022</span>
-							</div>
-							<div class="col-md-8 col-6">
-								<div class="blog-box-1" style="padding: 0; margin: 0;">
-									<h5 style="font-size: 12px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
-									<a class="link" style="bottom: 0;">&#xf178; Selengkapnya</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					
-
-
 				</div>
 			</div>
 			{{-- <div class="container">
