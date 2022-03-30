@@ -509,7 +509,7 @@
 			<div class="container" id="youtube" style="padding: 20px">
 				<div class="">
 					<div class="main_title">
-						<i class="fa fa-fw" style="font-size: 40px; color: red"> YouTube</i>
+						<i class="fa fa-fw" style="font-size: 20px; color: red"> Nurul Falah Media</i>
 						<a href="#0" class="muted">Nurul Falah Media</a>
 					</div>
 					<div class="owl-carousel owl-theme carousel_4">
