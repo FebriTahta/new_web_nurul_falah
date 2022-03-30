@@ -694,6 +694,20 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-md-12" style="padding-bottom: 10px">
+						<div class="row">
+							<div class="col-md-4 col-6">
+								<img src="images/blog/1.jpg" alt="">
+								
+							</div>
+							<div class="col-md-8 col-6">
+								<div class="blog-box-1" style="padding: 0; margin: 0;">
+									<span style="font-size: 11px">12 Maret 2022</span>
+									<h5 style="font-size: 12px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			{{-- <div class="container">
@@ -855,7 +869,7 @@
 	<!-- SECTION
     ================================================== -->	
 	
-	<section class="section bg_gray" style="padding-bottom: 20px">
+	<section class="section bg_gray">
 		
 		<div class="container">
 			<div style="margin-top: 20px">
@@ -936,29 +950,25 @@
 		</div>
 		
 	</section>
-	<section class="section bg_gray">
-		
-		<div class="container">
-			<div class="sixteen columns">
-				<ul id="owl-logos-4" class="owl-carousel owl-theme">
-					<li><img style="width: 60px; height: auto" src="{{asset('behaestex.png')}}" alt="" /></li>
-					<li><img style="width: 60px; height: auto" src="{{asset('act.png')}}" alt="" /></li>
-					<li><img style="width: 60px; height: auto" src="{{asset('pt.png')}}" alt="" /></li>
-					<li><img style="width: 60px; height: auto" src="{{asset('bri.png')}}" alt="" /></li>
-					<li><img style="width: 60px; height: auto" src="{{asset('pln.png')}}" alt="" /></li>
-					<li><img style="width: 60px; height: auto" src="{{asset('kemenag.png')}}" alt="" /></li>
-					<li><img style="width: 60px; height: auto" src="{{asset('bg.png')}}" alt="" /></li>
-					<li><img style="width: 60px; height: auto" src="{{asset('jtv.png')}}" alt="" /></li>
-					<li><img style="width: 60px; height: auto" src="{{asset('ramayana.png')}}" alt="" /></li>
-					<li><img style="width: 60px; height: auto" src="{{asset('Ybm.png')}}" alt="" /></li>
-					<li><img style="width: 60px; height: auto" src="{{asset('bulog.png')}}" alt="" /></li>
-					<li><img style="width: 60px; height: auto" src="{{asset('foz.png')}}" alt="" /></li>
-					
-				</ul>
-			</div>
+	<div class="container" style="margin: 0; padding: 0;">
+		<div class="sixteen columns">
+			<ul id="owl-logos-4" class="owl-carousel owl-theme">
+				<li><img style="width: 60px; height: auto" src="{{asset('behaestex.png')}}" alt="" /></li>
+				<li><img style="width: 60px; height: auto" src="{{asset('act.png')}}" alt="" /></li>
+				<li><img style="width: 60px; height: auto" src="{{asset('pt.png')}}" alt="" /></li>
+				<li><img style="width: 60px; height: auto" src="{{asset('bri.png')}}" alt="" /></li>
+				<li><img style="width: 60px; height: auto" src="{{asset('pln.png')}}" alt="" /></li>
+				<li><img style="width: 60px; height: auto" src="{{asset('kemenag.png')}}" alt="" /></li>
+				<li><img style="width: 60px; height: auto" src="{{asset('bg.png')}}" alt="" /></li>
+				<li><img style="width: 60px; height: auto" src="{{asset('jtv.png')}}" alt="" /></li>
+				<li><img style="width: 60px; height: auto" src="{{asset('ramayana.png')}}" alt="" /></li>
+				<li><img style="width: 60px; height: auto" src="{{asset('Ybm.png')}}" alt="" /></li>
+				<li><img style="width: 60px; height: auto" src="{{asset('bulog.png')}}" alt="" /></li>
+				<li><img style="width: 60px; height: auto" src="{{asset('foz.png')}}" alt="" /></li>
+				
+			</ul>
 		</div>
-			
-	</section>	
+	</div>	
 		<section class="section">
 			<a class="button-map close-map" style="color:white;padding: 20px; background: #6cb6a3"><span>Lokasi Kami</span></a>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.366918887994!2d112.72820171513091!3d-7.312613194722392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb12ae9aeeb3%3A0xf64b5d223ef0d319!2sPesantren%20Al-Qur&#39;an%20Nurul%20Falah!5e0!3m2!1sid!2sid!4v1648439145705!5m2!1sid!2sid" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
