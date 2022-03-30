@@ -109,10 +109,15 @@
 				padding-top: 10px;
 				padding-bottom: 20px;
 			}
+			.wrap1 {
+				display: none;
+			}
 			
 		}
 		@media (max-width:449px) {
-			
+			.wrap2 {
+				display: none;
+			}
 			.bnr {
 				margin-top: 50px;
 			}
@@ -650,7 +655,7 @@
 			</div>
 			
 			<div class="clear"></div>
-			<div class="container">
+			<div class="container" style="display: none">
 				<div class="row">
 					<div class="col-md-12" style="padding-bottom: 10px">
 						<div class="row">
@@ -710,10 +715,67 @@
 					</div>
 				</div>
 			</div>
-			{{-- <div class="container">
+			<div class="container">
 				<div class="row">
 					<div class="col-md-9 remove-top">
-						<div class="blog-wrapper">
+						<div class="blog-wrapper wrap1">
+							<div class="col-md-12" style="padding-bottom: 10px">
+								<div class="row">
+									<div class="col-md-4 col-6">
+										<img src="images/blog/1.jpg" alt="">
+									</div>
+									<div class="col-md-8 col-6">
+										<div class="blog-box-1" style="padding: 0; margin: 0;">
+											<p style="font-size: 12px; padding: 0; margin-bottom: 10px; text-align: left">12 Maret 2022</p>
+											<h5 style="font-size: 14px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12" style="padding-bottom: 10px">
+								<div class="row">
+									<div class="col-md-4 col-6">
+										<img src="images/blog/1.jpg" alt="">
+										
+									</div>
+									<div class="col-md-8 col-6">
+										<div class="blog-box-1" style="padding: 0; margin: 0;">
+											<p style="font-size: 12px; padding: 0; margin-bottom: 10px; text-align: left">12 Maret 2022</p>
+											<h5 style="font-size: 14px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12" style="padding-bottom: 10px">
+								<div class="row">
+									<div class="col-md-4 col-6">
+										<img src="images/blog/1.jpg" alt="">
+										
+									</div>
+									<div class="col-md-8 col-6">
+										<div class="blog-box-1" style="padding: 0; margin: 0;">
+											<p style="font-size: 12px; padding: 0; margin-bottom: 10px; text-align: left">12 Maret 2022</p>
+											<h5 style="font-size: 12px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12" style="padding-bottom: 10px">
+								<div class="row">
+									<div class="col-md-4 col-6">
+										<img src="images/blog/1.jpg" alt="">
+										
+									</div>
+									<div class="col-md-8 col-6">
+										<div class="blog-box-1" style="padding: 0; margin: 0;">
+											<p style="font-size: 12px; padding: 0; margin-bottom: 10px; text-align: left">12 Maret 2022</p>
+											<h5 style="font-size: 12px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="blog-wrapper wrap2">
 							<div id="blog-grid-masonry" class="isotope" style="position: relative; overflow: hidden; height: 3373px;">
 								<a href="#" class="animsition-link">
 									<div class="blog-box-3 half-blog-width photo">
@@ -780,7 +842,7 @@
 						<div class="separator-sidebar"></div>
 					</div>
 				</div>
-			</div> --}}
+			</div>
 			
 			<div class="call-to-action-1" style="background-color: #6cb6a3;">
 				<h5>BACA ARTIKEL SELENGKAPNYA DIBAWAH INI</h5>
