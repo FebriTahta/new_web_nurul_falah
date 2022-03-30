@@ -520,7 +520,7 @@
 									<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
 								</figure>
 								<ul>
-									<li><span class="take yes">Tarhib Ramadhan</span> </li>
+									<li><i class="fa fa-fw"></i><span >Tarhib Ramadhan</span> </li>
 									<li></li>
 								</ul>
 							</div>
@@ -532,7 +532,7 @@
 									<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
 								</figure>
 								<ul>
-									<li><span class="take yes">Kajian Kitab Nashoihul Ibad</span> </li>
+									<li><i class="fa fa-fw"></i><span>Kajian Kitab Nashoihul Ibad</span> </li>
 									<li></li>
 								</ul>
 							</div>
@@ -544,7 +544,7 @@
 									<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
 								</figure>
 								<ul>
-									<li><span class="take yes">Menjaga Kesehatan di Masa Pandemi</span> </li>
+									<li><i class="fa fa-fw"></i><span >Menjaga Kesehatan di Masa Pandemi</span> </li>
 									<li></li>
 								</ul>
 							</div>
@@ -556,7 +556,7 @@
 									<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
 								</figure>
 								<ul>
-									<li><span class="take yes">Al Mulk Irama Rost Tilawati</span> </li>
+									<li><i class="fa fa-fw"></i><span>Al Mulk Irama Rost Tilawati</span> </li>
 									<li></li>
 								</ul>
 							</div>
@@ -568,7 +568,7 @@
 									<a href="https://www.youtube.com/embed/j2rVkTHTOIw" target="_blank" class="strip_info"></a>
 								</figure>
 								<ul>
-									<li><span class="take yes">Podcast Lasiz Nurul Falah</span> </li>
+									<li><i class="fa fa-fw"></i><span>Podcast Lasiz Nurul Falah</span> </li>
 									<li></li>
 								</ul>
 							</div>
