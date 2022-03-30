@@ -219,8 +219,8 @@
 	
 	<div class="header-top" >
 	{{-- style="background-image: linear-gradient(to right, #75b2e4, #63f3bc);" --}}
-		<div class="cd-main-header sticky-header">
-			<a class="cd-logo animsition-link" href="/"><img src="{{asset('nf_logo.png')}}" alt="Logo"></a>
+		<div class="cd-main-header sticky-header" style="background-color: white">
+			<a class="cd-logo" href="/" style="padding: 0; margin: 0;"><img src="{{asset('nf_logo.png')}}"  alt="Logo"></a>
 
 			<ul class="cd-header-buttons" style="z-index: 9999999">
 				<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
@@ -451,7 +451,7 @@
 			<div class="row">
 				<div class="sixteen columns" style="margin-top: 50px; text-align: center">
 					<div class="section-title" style="text-align: center">
-						<h4 style="text-align: left; font-weight: 1000; color: #2ecc71">SPESIAL RAMADHAN</h4>
+						<h4 style="text-align: left; font-weight: 1000; color: #2ecc71; font-size: 18px">SPESIAL RAMADHAN</h4>
 						<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px; text-align: left; margin: 0; padding: 0; color: cornflowerblue">
 							<span class="muter"><i class="fa fa-fw"></i> Informasi Acara Selengkapnya</span> 
 						</a>
