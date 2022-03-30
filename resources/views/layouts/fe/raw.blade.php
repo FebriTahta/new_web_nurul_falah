@@ -1097,7 +1097,7 @@
 		
 	</main>		
 
-	<div class="scroll-to-top">&#xf106;</div>
+	<div style="margin-bottom: 50px" class="scroll-to-top">&#xf106;</div>
 	
 	
 	</div>
