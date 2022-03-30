@@ -182,7 +182,7 @@
 	================================================== -->
 
 	<div class="animsition">
-		<header class="header" style="padding: 5%" id="header-media">
+		{{-- <header class="header" style="padding: 5%" id="header-media">
             <nav class="nav">
                 <!-- <a href="#" class="nav__logo">Marlon</a> -->
                 <div class="nav__menu">
@@ -207,7 +207,7 @@
 					</div>
                 </div>
             </nav>
-        </header>
+        </header> --}}
 	
     <!-- Switch Panel -->
     <div id="switch">
@@ -239,18 +239,43 @@
 	
 	<div class="header-top" >
 	{{-- style="background-image: linear-gradient(to right, #75b2e4, #63f3bc);" --}}
-		<header class="cd-main-header">
+		<div class="cd-main-header">
 			<a class="cd-logo animsition-link" href="/"><img src="{{asset('nf_logo.png')}}" alt="Logo"></a>
 
 			<ul class="cd-header-buttons">
 				<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
-				<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+				<li><button style="background: transparent; padding: 0; margin: 0; top: -20px" type="button" class="cd-nav-trigger" href="#cd-primary-nav"><span></span></button></li>
 			</ul> <!-- cd-header-buttons -->
-		</header>
+		</div>
+		<header class="header" style="padding: 5%" id="header-media">
+            <nav class="nav">
+                <!-- <a href="#" class="nav__logo">Marlon</a> -->
+                <div class="nav__menu">
+                    <div class="row">
+						<div class="col-sm-3 col-3" style="text-align: center; margin-top: 30px; ">
+							<i class="fa fa-fw" style="margin-left: 5px"></i>
+							<h5 style="font-size: 10px; padding: 5px">HOME</h5>
+						</div>
+						<div class="col-sm-3 col-3" style="text-align: center; margin-top: 30px">
+							<i class="fa fa-fw" style="margin-left: 5px"></i>
+							<h5 style="font-size: 10px; padding: 5px">PROFILE</h5>
+						</div>
+						<div class="col-sm-3 col-3" style="text-align: center; margin-top: 30px">
+							<i class="fa fa-fw" style="margin-left: 5px"></i>
+							<h5 style="font-size: 10px; padding: 5px">MEDIA</h5>
+						</div>
+						
+						<div class="col-sm-3 col-3" style="text-align: center; margin-top: 30px">
+							<i class="fa fa-fw" style="margin-left: 5px"></i>
+							<h5 style="font-size: 10px; padding: 5px">CONTACT</h5>
+						</div>
+					</div>
+                </div>
+            </nav>
+        </header>
 		
 		<nav class="cd-nav">
-			<ul id="cd-primary-nav" class="cd-primary-nav is-fixed" style="align-content: center;" sty
-			>
+			<ul id="cd-primary-nav" class="cd-primary-nav is-fixed" style="align-content: center;">
 				<li>
 					<a href="/" class="animsition-link">Home</a>
 				</li>
