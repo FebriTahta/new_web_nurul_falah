@@ -656,10 +656,11 @@
 						<div class="row">
 							<div class="col-md-4 col-6">
 								<img src="images/blog/1.jpg" alt="">
-								<span style="font-size: 11px">12 Maret 2022</span>
+								
 							</div>
 							<div class="col-md-8 col-6">
 								<div class="blog-box-1" style="padding: 0; margin: 0;">
+									<span style="font-size: 11px">12 Maret 2022</span>
 									<h5 style="font-size: 14px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
 								</div>
 							</div>
@@ -669,10 +670,11 @@
 						<div class="row">
 							<div class="col-md-4 col-6">
 								<img src="images/blog/1.jpg" alt="">
-								<span style="font-size: 11px">12 Maret 2022</span>
+								
 							</div>
 							<div class="col-md-8 col-6">
 								<div class="blog-box-1" style="padding: 0; margin: 0;">
+									<span style="font-size: 11px">12 Maret 2022</span>
 									<h5 style="font-size: 14px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
 								</div>
 							</div>
@@ -682,10 +684,11 @@
 						<div class="row">
 							<div class="col-md-4 col-6">
 								<img src="images/blog/1.jpg" alt="">
-								<span style="font-size: 11px">12 Maret 2022</span>
+								
 							</div>
 							<div class="col-md-8 col-6">
 								<div class="blog-box-1" style="padding: 0; margin: 0;">
+									<span style="font-size: 11px">12 Maret 2022</span>
 									<h5 style="font-size: 12px; text-align: left">adipisicing cing elit adipisicing elit.</h5>
 								</div>
 							</div>
