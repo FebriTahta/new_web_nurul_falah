@@ -96,7 +96,7 @@
 				height: 210px !important;
 				-webkit-border-radius: 5px;
 				-moz-border-radius: 5px;
-				-ms-border-radius: 5px;
+				-ms-border-radius: 5px; 
 				border-radius: 5px;
 				background-color: #ededed;
 			}
