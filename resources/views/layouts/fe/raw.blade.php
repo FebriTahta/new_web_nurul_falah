@@ -833,9 +833,9 @@
 						<iframe id="iframe" title="prayerWidget" class="widget-m-top" style=" height: 362px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/1625822/shafi/11/0/20.0/18.0"> </iframe>
 						<div class="separator-sidebar" style="margin-bottom: 40px"></div>
 						<h6 style="text-align: center">HARI SPESIAL ISLAM</h6>
-						<ul id="islamic-days-desktop" style="padding: 0; margin: 0;">
+						{{-- <ul id="islamic-days-desktop" style="padding: 0; margin: 0;">
 							<iframe  style="height: 460px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/specialislamicdays"> </iframe>
-						</ul>
+						</ul> --}}
 						<ul id="islamic-days-mobile" style="padding: 0; margin: 0;">
 							<iframe style="height: 418px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/specialislamicdays"> </iframe>
 						</ul>
