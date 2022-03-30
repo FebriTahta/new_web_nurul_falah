@@ -239,17 +239,19 @@
 	
 	<div class="header-top" >
 	{{-- style="background-image: linear-gradient(to right, #75b2e4, #63f3bc);" --}}
-		<div class="cd-main-header">
+		<div class="cd-main-header sticky-header">
 			<a class="cd-logo animsition-link" href="/"><img src="{{asset('nf_logo.png')}}" alt="Logo"></a>
 
-			<ul class="cd-header-buttons">
+			<ul class="cd-header-buttons" style="z-index: 9999999">
 				<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
-				<li><button style="background: transparent; padding: 0; margin: 0; top: -20px" type="button" class="cd-nav-trigger" href="#cd-primary-nav"><span></span></button></li>
-			</ul> <!-- cd-header-buttons -->
+				<li><a type="button" class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+			</ul> 
+			
+			<!-- cd-header-buttons -->
 		</div>
-		<header class="header" style="padding: 5%" id="header-media">
+		<header class="header" id="header-mobile-bottom">
             <nav class="nav">
-                <!-- <a href="#" class="nav__logo">Marlon</a> -->
+                
                 <div class="nav__menu">
                     <div class="row">
 						<div class="col-sm-3 col-3" style="text-align: center; margin-top: 30px; ">
