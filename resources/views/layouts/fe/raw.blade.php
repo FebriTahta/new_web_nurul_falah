@@ -451,8 +451,8 @@
 			<div class="row">
 				<div class="sixteen columns" style="margin-top: 50px; text-align: center">
 					<div class="section-title" style="text-align: center">
-						<h4 style="text-align: left;">SPESIAL RAMADHAN</h4>
-						<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px; text-align: left; margin: 0; padding: 0;">
+						<h4 style="text-align: left; font-weight: 1000; color: #2ecc71">SPESIAL RAMADHAN</h4>
+						<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px; text-align: left; margin: 0; padding: 0; color: cornflowerblue">
 							<span class="muter"><i class="fa fa-fw"></i> Informasi Acara Selengkapnya</span> 
 						</a>
 					</div>
@@ -501,7 +501,7 @@
 				<div class="">
 					<div class="main_title">
 						<i class="fa fa-fw" style="font-size: 20px; color: red"> Nurul Falah Media</i>
-						<a href="#0" class="muted">Nurul Falah Media</a>
+						<a href="https://www.youtube.com/channel/UC1Xkdp_DKN0hJL85UWxH_Gg/videos" target="_blank" class="muted">Kunjungi YouTube</a>
 					</div>
 					<div class="owl-carousel owl-theme carousel_4">
 						<div class="item">
@@ -577,37 +577,37 @@
 				<div class="row">
 					<div class="sixteen columns" style="margin-top: 50px; text-align: center">
 						<div class="section-title" style="text-align: center">
-							<h4 style="text-align: left">BERITA TERKINI</h4>
-							<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px; text-align: left; margin: 0; padding: 0;">
+							<h4 style="text-align: left; color: #2ecc71; font-weight: 1000">BERITA TERKINI</h4>
+							<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px; text-align: left; margin: 0; padding: 0; color: #3498db">
 								<span class="muter"><i class="fa fa-fw"></i> kabar terbaru nurul falah</span> 
 							</a>
 						</div>
 					</div>
 					<div class="col-md-8">
 						<div class="blog-big-wrapper deskripsi">
-							<img src="images/blog/9.jpg" alt="">
-							<div class="bottom-text" style="font-size: 14px">17th Oct 2014</div>
-							<a href="/" class="animsition-link"><h5>THIS IS A STANDARD POST WITH A PREVIEW IMAGE</h5></a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus...</p>
+							<img src="images/blog/9.jpg" alt="" style="padding: 0; margin-bottom: 10px;">
+							<div class="bottom-text;" style="font-size: 14px">17th Oct 2014</div>
+							<a href="/" class="animsition-link"><h5 style="margin: 0; padding-bottom: 10px; font-weight: 600;">THIS IS A STANDARD POST WITH A PREVIEW IMAGE</h5></a>
+							<p style="margin-bottom: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus...</p>
 								<a href="/" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
 						</div>
 					</div>
 					<div class="col md-4">
 						<div class="full-image">
 							<div class="blog-big-wrapper deskripsi">
-								<img src="images/blog/9.jpg" alt="">
-								<div class="bottom-text" style="font-size: 14px">17th Oct 2014</div>
-								<a href="/" class="animsition-link"><h5>THIS IS A STANDARD POST</h5></a>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
+								<img src="images/blog/9.jpg" alt="" style="padding: 0; margin-bottom: 10px;">
+							<div class="bottom-text;" style="font-size: 14px">17th Oct 2014</div>
+							<a href="/" class="animsition-link"><h5 style="margin: 0; padding-bottom: 10px; font-weight: 600;">THIS IS A STANDARD POST WITH A PREVIEW IMAGE</h5></a>
+							<p style="margin-bottom: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus...</p>
 								<a href="/" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
 							</div>
 						</div>
 						<div class="full-image">
 							<div class="blog-big-wrapper deskripsi">
-								<img src="images/blog/9.jpg" alt="">
-								<div class="bottom-text" style="font-size: 14px">17th Oct 2014</div>
-								<a href="/" class="animsition-link"><h5>THIS IS A STANDARD POST</h5></a>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
+								<img src="images/blog/9.jpg" alt="" style="padding: 0; margin-bottom: 10px;">
+							<div class="bottom-text;" style="font-size: 14px">17th Oct 2014</div>
+							<a href="/" class="animsition-link"><h5 style="margin: 0; padding-bottom: 10px; font-weight: 600;">THIS IS A STANDARD POST WITH A PREVIEW IMAGE</h5></a>
+							<p style="margin-bottom: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus...</p>
 								<a href="/" class="animsition-link"><div class="link-to-post">selengkapnya <span></span></div></a>
 							</div>
 						</div>
@@ -632,9 +632,9 @@
 			<div class="container" style="padding-bottom: 20px">
 				<div class="">
 					<div class="section-title" style="text-align: center">
-						<h4 style=" margin: 0;">ARTIKEl</h4> 
+						<h4 style=" margin: 0; font-weight: 1000;color: #2ecc71">ARTIKEl</h4> 
 						<a href="/" class="column icons-box muted" style="text-transform: uppercase; font-size: 12px; margin: 0;">
-							<span class="muter" style="margin-right: 5px"><i class="fa fa-fw"></i> perkaya ilmu pengerahuan &nbsp;&nbsp;<i class="fa fa-fw"></i></span> 
+							<span class="muter" style="margin-right: 5px; color: #3498db"><i class="fa fa-fw"></i> perkaya ilmu pengerahuan &nbsp;&nbsp;<i class="fa fa-fw"></i></span> 
 						</a>
 					</div>
 				</div>
