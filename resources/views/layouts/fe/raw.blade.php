@@ -958,7 +958,7 @@
 				<li><img style="width: 60px; height: auto" src="{{asset('kemenag.png')}}" alt="" /></li>
 				<li><img style="width: 60px; height: auto" src="{{asset('bg.png')}}" alt="" /></li>
 				<li><img style="width: 60px; height: auto" src="{{asset('jtv.png')}}" alt="" /></li>
-				<li><img style="width: 60px; height: auto" src="{{asset('ramayana.png')}}" alt="" /></li>
+				{{-- <li><img style="width: 60px; height: auto" src="{{asset('ramayana.png')}}" alt="" /></li> --}}
 				<li><img style="width: 60px; height: auto" src="{{asset('Ybm.png')}}" alt="" /></li>
 				<li><img style="width: 60px; height: auto" src="{{asset('bulog.png')}}" alt="" /></li>
 				<li><img style="width: 60px; height: auto" src="{{asset('foz.png')}}" alt="" /></li>
