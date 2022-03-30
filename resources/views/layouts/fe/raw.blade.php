@@ -1062,9 +1062,9 @@
 	
 		<section  class="section footer-1 section-padding-top-bottom">	
 			<div class="container" >
-				<div  class="four columns" data-scroll-reveal="enter left move 200px over 0.5s after 0.8s">
+				<div  class="four columns foot" data-scroll-reveal="enter left move 200px over 0.5s after 0.8s">
 					<a href="/" class="animsition-link foot">
-						<img src="{{asset('nf_logo_white.png')}}" style="width: 200px" alt="">
+						<img class="foot" src="{{asset('nf_logo_white.png')}}" style="width: 200px" alt="">
 					</a>
 				</div>
 				<div class="four columns" data-scroll-reveal="enter left move 200px over 0.5s after 0.3s">
@@ -1087,7 +1087,7 @@
 		<section class="section footer-bottom">	
 			<div class="container">
 				<div class="sixteen columns">
-					<p>© ALL RIGHTS RESERVED. MADE BY ME</p>
+					<p>© ALL RIGHTS RESERVED. MADE BY NF</p>
 				</div>	
 			</div>
 		</section>
