@@ -77,13 +77,8 @@
 			}
 			#islamic-days-mobile {
 				display: none;
-			}
-			#islamic-days-dekstop {
-				display: block;
-			}
-			#islamic-days-desktop {
-				display: none;
-			}
+			} 
+			
 			#head-event {
 				margin-top: 150px !important;
 			}
@@ -118,6 +113,9 @@
 			
 		}
 		@media (max-width:449px) {
+			#islamic-days-desktop {
+				display: none;
+			}
 			.wrap2 {
 				display: none;
 			}
@@ -136,17 +134,9 @@
 			.deskripsi p {
 				text-align: justify;
 			}
-			#islamic-days-desktop {
-				display: none;
-			}
-			#islamic-days-mobile {
-				display: block;
-			}
+			
 			.desc-event {
 				display: none;
-			}
-			#islamic-days-desktop {
-				display: block;
 			}
 			#info-event {
 				display: none;
@@ -839,10 +829,10 @@
 						<iframe id="iframe" title="prayerWidget" class="widget-m-top" style=" height: 362px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/1625822/shafi/11/0/20.0/18.0"> </iframe>
 						<div class="separator-sidebar" style="margin-bottom: 40px"></div>
 						<h6 style="text-align: center">HARI SPESIAL ISLAM</h6>
-						<ul id="islamic-days-desktop" style="padding: 0; margin: 0;">
+						<ul id="islamic-days-mobile" style="padding: 0; margin: 0;">
 							<iframe  style="height: 460px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/specialislamicdays"> </iframe>
 						</ul>
-						<ul id="islamic-days-mobile" style="padding: 0; margin: 0;">
+						<ul id="islamic-days-desktop" style="padding: 0; margin: 0;">
 							<iframe style="height: 418px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/specialislamicdays"> </iframe>
 						</ul>
 						<div class="separator-sidebar"></div>
