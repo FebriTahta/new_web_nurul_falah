@@ -40,22 +40,22 @@
 	<!-- CSS
   ================================================== -->
 	<link rel="stylesheet" href="{{asset('css/base.css')}}"/>
-	<link rel="stylesheet" href="css/skeleton.css"/>
-	<link rel="stylesheet" href="css/layout.css"/>
-	<link rel="stylesheet" href="css/settings.css"/>
-	<link rel="stylesheet" href="css/font-awesome.css" />
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/retina.css"/>
-	<link rel="stylesheet" href="css/colorbox.css"/>
-	<link rel="stylesheet" href="css/animsition.min.css"/>
+	<link rel="stylesheet" href="{{asset('css/skeleton.css')}}"/>
+	<link rel="stylesheet" href="{{asset('css/layout.css')}}"/>
+	<link rel="stylesheet" href="{{asset('css/settings.css')}}"/>
+	<link rel="stylesheet" href="{{asset('css/font-awesome.css')}}" />
+	<link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}"/>
+	<link rel="stylesheet" href="{{asset('css/retina.css')}}"/>
+	<link rel="stylesheet" href="{{asset('css/colorbox.css')}}"/>
+	<link rel="stylesheet" href="{{asset('css/animsition.min.css')}}"/>
 	
-	<link rel="alternate stylesheet" type="text/css" href="css/colors/color-gold.css" title="1">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-2.css" title="2">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-3.css" title="3">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-4.css" title="4">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-5.css" title="5">	
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-6.css" title="6">	
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-7.css" title="7">
+	<link rel="alternate stylesheet" type="text/css" href="{{asset('css/colors/color-gold.css')}}" title="1">
+    <link rel="alternate stylesheet" type="text/css" href="{{asset('css/colors/color-2.css')}}" title="2">
+    <link rel="alternate stylesheet" type="text/css" href="{{asset('css/colors/color-3.css')}}" title="3">
+    <link rel="alternate stylesheet" type="text/css" href="{{asset('css/colors/color-4.css')}}" title="4">
+    <link rel="alternate stylesheet" type="text/css" href="{{asset('css/colors/color-5.css')}}" title="5">	
+    <link rel="alternate stylesheet" type="text/css" href="{{asset('css/colors/color-6.css')}}" title="6">	
+    <link rel="alternate stylesheet" type="text/css" href="{{asset('css/colors/color-7.css')}}" title="7">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 	
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script> 
@@ -66,9 +66,9 @@
 	<!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="{{asset('nf.png')}}">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" href="{{asset('apple-touch-icon.png')}}">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{asset('apple-touch-icon-72x72.png')}}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{asset('apple-touch-icon-114x114.png')}}">
 	
 	<style>
 		@media (min-width: 451px) {
@@ -108,6 +108,10 @@
 				padding-bottom: 20px;
 			}
 			.wrap1 {
+				display: none;
+			}
+
+			.hr-sholat {
 				display: none;
 			}
 			
@@ -169,6 +173,9 @@
 				margin-bottom: -40px;
 				margin-top: -25px;
 			}
+			#sep-mobile {
+				display: none;
+			}
 		}
 
 		
@@ -182,33 +189,6 @@
 	================================================== -->
 
 	<div class="animsition">
-		{{-- <header class="header" style="padding: 5%" id="header-media">
-            <nav class="nav">
-                <!-- <a href="#" class="nav__logo">Marlon</a> -->
-                <div class="nav__menu">
-                    <div class="row">
-						<div class="col-sm-3 col-3" style="text-align: center; margin-top: 30px; ">
-							<i class="fa fa-fw" style="margin-left: 5px"></i>
-							<h5 style="font-size: 10px; padding: 5px">HOME</h5>
-						</div>
-						<div class="col-sm-3 col-3" style="text-align: center; margin-top: 30px">
-							<i class="fa fa-fw" style="margin-left: 5px"></i>
-							<h5 style="font-size: 10px; padding: 5px">PROFILE</h5>
-						</div>
-						<div class="col-sm-3 col-3" style="text-align: center; margin-top: 30px">
-							<i class="fa fa-fw" style="margin-left: 5px"></i>
-							<h5 style="font-size: 10px; padding: 5px">MEDIA</h5>
-						</div>
-						
-						<div class="col-sm-3 col-3" style="text-align: center; margin-top: 30px">
-							<i class="fa fa-fw" style="margin-left: 5px"></i>
-							<h5 style="font-size: 10px; padding: 5px">CONTACT</h5>
-						</div>
-					</div>
-                </div>
-            </nav>
-        </header> --}}
-	
     <!-- Switch Panel -->
     <div id="switch">
         <div class="content-switcher" >        
@@ -408,23 +388,6 @@
 				</div>
 			</div>
 		</section>		
-
-		{{-- <section class="home section white-section section-padding-bottom section-home-padding-top">
-			
-		</section> --}}
-		{{-- <section id="bidang" class="section bg_gray" style="margin-top: 70px; padding: 0;">
-			<div class="container">
-				<div class="sixteen columns" style="margin-bottom: 30px; margin-top: 30px">
-					<ul id="owl-logos" class="owl-carousel owl-theme">
-						<li><img style="width: 100px; height: auto" src="{{asset('LPQ.png')}}" alt="" /></li>
-						<li><img style="width: 100px; height: auto" src="{{asset('TLWTI.png')}}" alt="" /></li>
-						<li><img style="width: 100px; height: auto" src="{{asset('DGTKI.png')}}" alt="" /></li>
-						<li><img style="width: 100px; height: auto" src="{{asset('LAZIS.png')}}" alt="" /></li>
-						<li><img style="width: 100px; height: auto" src="{{asset('LPQ.png')}}" alt="" /></li>
-					</ul>
-				</div>
-			</div>
-		</section> --}}
 		<div class="bg_gray" id="sosmed">
 			<div class="container" id="social" style="margin-top: 70px; padding: 20px">
 				<div class="owl-carousel owl-theme categories_carousel">
@@ -852,9 +815,11 @@
 						</div>
 					</div>
 					<div class="col-md-3" style="text-align: center">
+						<hr class="hr-sholat">
 						<h6 style="text-align: center; margin: 15px">JADWAL SHOLAT</h6>
 						<iframe id="iframe" title="prayerWidget" class="widget-m-top" style=" height: 362px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/1625822/shafi/11/0/20.0/18.0"> </iframe>
-						<div class="separator-sidebar" style="margin-bottom: 40px"></div>
+						<div id="sep-mobile" class="separator-sidebar" style="margin-bottom: 40px"></div>
+						<hr class="hr-sholat">
 						<h6 style="text-align: center">HARI SPESIAL ISLAM</h6>
 						<ul id="islamic-days-mobile" style="padding: 0; margin: 0;">
 							<iframe  style="height: 418px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/specialislamicdays"> </iframe>
@@ -1097,7 +1062,7 @@
 		
 	</main>		
 
-	<div style="margin-bottom: 50px" class="scroll-to-top">&#xf106;</div>
+	<div style="margin-bottom: 50px; width: 40px; height: 40px; background-color: #6cb6a3" class="scroll-to-top">&#xf106;</div>
 	
 	
 	</div>
@@ -1108,12 +1073,12 @@
 	<!-- JAVASCRIPT
     ================================================== -->
 	
-<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.js"></script> 
-<script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
-<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>		
-<script type="text/javascript" src="js/jquery.animsition.min.js"></script>
-<script type="text/javascript" src="js/custom-slider-project.js"></script>  
+<script type="text/javascript" src="{{asset('js/jquery-2.1.1.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/modernizr.custom.js')}}"></script> 
+<script type="text/javascript" src="{{asset('js/jquery.mobile.custom.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/retina-1.1.0.min.js')}}"></script>		
+<script type="text/javascript" src="{{asset('js/jquery.animsition.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/custom-slider-project.js')}}"></script>  
 <script type="text/javascript">
 (function($) { "use strict";
 	$(document).ready(function() {
@@ -1144,27 +1109,27 @@
 	});  
 })(jQuery);
 </script>
-<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>   
-<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script> 
-<script type="text/javascript" src="js/jquery.easing.js"></script>	
-<script type="text/javascript" src="js/jquery.hidescroll.min.js"></script>	
+<script type="text/javascript" src="{{asset('js/jquery.themepunch.tools.min.js')}}"></script>   
+<script type="text/javascript" src="{{asset('js/jquery.themepunch.revolution.min.js')}}"></script> 
+<script type="text/javascript" src="{{asset('js/jquery.easing.js')}}"></script>	
+<script type="text/javascript" src="{{asset('js/jquery.hidescroll.min.js')}}"></script>	
 <script type="text/javascript">
 	$('.header-top').hidescroll();
 </script>
 {{-- <script type="text/javascript" src="js/smoothScroll.js"></script> --}}
-<script type="text/javascript" src="js/isotope.js"></script> 
-<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
-<script type="text/javascript" src="js/waypoints.min.js"></script>
-<script type="text/javascript" src="js/scrollReveal.js"></script>
-<script type="text/javascript" src="js/masonry.js"></script> 
-<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="{{asset('js/isotope.js')}}"></script> 
+<script type="text/javascript" src="{{asset('js/jquery.counterup.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/waypoints.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/scrollReveal.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/masonry.js')}}"></script> 
+<script type="text/javascript" src="{{asset('js/jquery.parallax-1.1.3.js')}}"></script>
 <script type="text/javascript">
 (function($) { "use strict";
       window.scrollReveal = new scrollReveal();
 })(jQuery);
 </script>
-<script type="text/javascript" src="js/jquery.colorbox.js"></script>
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="{{asset('js/jquery.colorbox.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script>
 <script type="text/javascript"> 
 (function($) { "use strict";          
 			jQuery(document).ready(function() {
@@ -1186,15 +1151,15 @@
 			});
 })(jQuery);
 </script>
-<script type="text/javascript" src="js/styleswitcher.js"></script>
-<script type="text/javascript" src="js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="js/custom-portfolio-home-1.js"></script>  	  
-<script type="text/javascript" src="js/custom-blog-grid-right.js"></script>  
+<script type="text/javascript" src="{{asset('js/styleswitcher.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/jquery.fitvids.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/custom-portfolio-home-1.js')}}"></script>  	  
+<script type="text/javascript" src="{{asset('js/custom-blog-grid-right.js')}}"></script>  
 
-<script type="text/javascript" src="js/contact.js"></script>
-<script type="text/javascript" src="js/custom-carousels.js"></script>  	  
-<script type="text/javascript" src="js/custom-clients.js"></script>  
-<script type="text/javascript" src="js/custom-grid-3col.js"></script>
+<script type="text/javascript" src="{{asset('js/contact.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/custom-carousels.js')}}"></script>  	  
+<script type="text/javascript" src="{{asset('js/custom-clients.js')}}"></script>  
+<script type="text/javascript" src="{{asset('js/custom-grid-3col.js')}}"></script>
 <!-- End Document
 ================================================== -->
 
