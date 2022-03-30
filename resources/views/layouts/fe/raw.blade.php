@@ -93,7 +93,7 @@
 				margin-bottom: 5px;
 				overflow: hidden;
 				position: relative;
-				height: 200px !important;
+				height: 210px !important;
 				-webkit-border-radius: 5px;
 				-moz-border-radius: 5px;
 				-ms-border-radius: 5px;
@@ -153,7 +153,7 @@
 				margin-bottom: 5px;
 				overflow: hidden;
 				position: relative;
-				height: 115px !important;
+				height: 125px !important;
 				-webkit-border-radius: 5px;
 				-moz-border-radius: 5px;
 				-ms-border-radius: 5px;
